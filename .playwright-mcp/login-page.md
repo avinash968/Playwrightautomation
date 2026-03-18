@@ -1,0 +1,70 @@
+- generic [ref=e5]:
+  - generic [ref=e7]:
+    - img [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "Welcome to Quote2Cash" [level=3] [ref=e15]
+          - paragraph [ref=e16]: Please enter your username and password to log in.
+        - generic [ref=e17]:
+          - heading "Username *" [level=5] [ref=e18]:
+            - text: Username
+            - generic [ref=e19]: "*"
+          - textbox "Enter a valid username" [ref=e20]
+        - generic [ref=e21]:
+          - heading "Password *" [level=5] [ref=e22]:
+            - text: Password
+            - generic [ref=e23]: "*"
+          - textbox "Enter a valid password" [ref=e24]
+          - generic [ref=e25] [cursor=pointer]: 
+        - generic [ref=e26]:
+          - generic [ref=e27]: Forgot
+          - generic [ref=e28] [cursor=pointer]: username
+          - generic [ref=e29]: (or)
+          - generic [ref=e30] [cursor=pointer]: password
+        - button "Login" [ref=e31] [cursor=pointer]:  Login
+        - heading "2026 © Quote2Cash" [level=6] [ref=e33]
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e40]:
+            - heading "Pricing Calculation & Controls" [level=4] [ref=e41]
+            - link:
+              - /url: "#"
+            - img [ref=e43]
+          - generic [ref=e47]:
+            - heading "Rate Management" [level=4] [ref=e48]
+            - link:
+              - /url: "#"
+            - img [ref=e50]
+          - generic [ref=e54]:
+            - heading "Document Support & Estimation" [level=4] [ref=e55]
+            - link:
+              - /url: "#"
+            - img [ref=e57]
+          - generic [ref=e61]:
+            - heading "Integrations & Downloads" [level=4] [ref=e62]
+            - link:
+              - /url: "#"
+            - img [ref=e64]
+        - generic [ref=e65]:
+          - generic [ref=e69]:
+            - heading "Commission Settlement" [level=4] [ref=e70]
+            - link:
+              - /url: "#"
+            - img [ref=e72]
+          - generic [ref=e76]:
+            - heading "Sales Lead Management" [level=4] [ref=e77]
+            - link:
+              - /url: "#"
+            - img [ref=e79]
+          - generic [ref=e83]:
+            - heading "E-Signature" [level=4] [ref=e84]
+            - link:
+              - /url: "#"
+            - img [ref=e86]
+          - generic [ref=e90]:
+            - heading "Reporting" [level=4] [ref=e91]
+            - link:
+              - /url: "#"
+            - img [ref=e93]
+  - text: "* *  "
