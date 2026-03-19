@@ -110,7 +110,45 @@ Include:
 
 6. Summary and Recommendations - Overall quality assessment - Risk areas - Next steps Expected Output: • Comprehensive test execution report covering both manual and automated testing • Clear PASS/FAIL status for all test scenarios • Detailed bug reports for failures • Complete test coverage analysis against AC1–AC15 • Evidence and screenshots attached ---
 
-🚀 STEP 7: Commit to Git Repository Git Repository URL:
+STEP 7 - NOTIFY GOOGLE CHAT:
+After generating the test report at:
+C:\Playwright QA\test-results\mga-quote2cash-test-report.md
+
+Read the report carefully and extract these exact values:
+
+- PASSED = total passed tests (number only)
+- FAILED = total failed tests (number only)
+- HEALED = total healed tests (number only)
+- PASSRATE = pass percentage (number only e.g. 93)
+- DURATION = total run time (e.g. 4m22s)
+- BUGCOUNT = number of BUG_CONFIRMED items
+- BUGLIST = each bug on a new line with severity emoji
+  use 🔴 for Critical, 🟡 for High,
+  🔵 for Medium, ⚪ for Low
+- AUTHPASS = passed count for Authentication suite
+- AUTHTOTAL = total count for Authentication suite
+- ESTIMATEPASS = passed count for Estimate Creation suite
+- ESTIMATETOTAL = total count for Estimate Creation suite
+- RATEPASS = passed count for Rate Management suite
+- RATETOTAL = total count for Rate Management suite
+- DOCSPASS = passed count for Document Generation suite
+- DOCSTOTAL = total count for Document Generation suite
+- COMMITSHA = the git commit SHA from Step 7 (use main if not available)
+
+Then run this command in PowerShell terminal:
+
+powershell -ExecutionPolicy Bypass -File "C:\Playwright QA\notify-googlechat.ps1" `  -Passed "PASSED"`
+-Failed "FAILED" `  -Healed "HEALED"`
+-PassRate "PASSRATE" `  -Duration "DURATION"`
+-BugCount "BUGCOUNT" `  -BugList "BUGLIST"`
+-AuthPass "AUTHPASS" -AuthTotal "AUTHTOTAL" `  -EstimatePass "ESTIMATEPASS" -EstimateTotal "ESTIMATETOTAL"`
+-RatePass "RATEPASS" -RateTotal "RATETOTAL" `  -DocsPass "DOCSPASS" -DocsTotal "DOCSTOTAL"`
+-ReportFile "mga-quote2cash-test-report.md" `
+-CommitSHA "COMMITSHA"
+
+Replace every value in capitals with the actual extracted value.
+
+🚀 STEP 8: Commit to Git Repository Git Repository URL:
 
 https://github.com/avinash968/Playwrightautomation Prompt:
 
