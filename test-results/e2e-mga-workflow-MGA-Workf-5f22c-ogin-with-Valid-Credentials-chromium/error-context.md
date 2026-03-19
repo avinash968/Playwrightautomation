@@ -1,0 +1,121 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - text: 
+    - navigation [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - text: 
+          - listitem [ref=e12]:
+            - link " Estimates" [ref=e13] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e15]:
+                - generic [ref=e16]: 
+                - text: Estimates
+          - listitem [ref=e17]:
+            - link " Customers" [ref=e18] [cursor=pointer]:
+              - /url: "#/app/customers"
+              - generic [ref=e20]:
+                - generic [ref=e21]: 
+                - text: Customers
+          - listitem [ref=e22]:
+            - link " My Schedule" [ref=e23] [cursor=pointer]:
+              - /url: "#/app/user-calendar"
+              - generic [ref=e25]:
+                - generic [ref=e26]: 
+                - text: My Schedule
+          - listitem [ref=e27]:
+            - link " All Documents" [ref=e28] [cursor=pointer]:
+              - /url: "#/app/documents"
+              - generic [ref=e30]:
+                - generic [ref=e31]: 
+                - text: All Documents
+          - listitem [ref=e32]:
+            - link " Reports" [ref=e33] [cursor=pointer]:
+              - /url: "#/app/reports"
+              - generic [ref=e35]:
+                - generic [ref=e36]: 
+                - text: Reports
+          - listitem [ref=e37]:
+            - link " Settings" [ref=e38] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: Settings
+  - generic [ref=e42]:
+    - banner [ref=e44]:
+      - generic [ref=e45]:
+        - text:  
+        - generic:
+          - link "Quote2Cash " [ref=e46] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Quote2Cash
+            - generic [ref=e48]: 
+          - link "Q2C " [ref=e49] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Q2C
+            - generic [ref=e51]: 
+        - text:   
+      - generic [ref=e52]:
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - button [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+          - listitem [ref=e58]:
+            - generic [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: 
+          - listitem [ref=e61]:
+            - link [ref=e62] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e63]: 
+              - text: Create
+        - listitem [ref=e68]:
+          - link [ref=e69] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e70]: 
+            - text: Alerts
+        - listitem [ref=e75]:
+          - link [ref=e76] [cursor=pointer]:
+            - /url: "#/app/jobReminder?type=task"
+            - generic [ref=e77]: 
+            - text: Task
+        - text:  
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - generic [ref=e80] [cursor=pointer]: Michael
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - list [ref=e85]:
+          - listitem [ref=e86]:
+            - link " Home" [ref=e87] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e88]: 
+              - text: Home
+          - listitem [ref=e89]: / Estimates
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - button " Search ..." [ref=e102] [cursor=pointer]:
+                - generic [ref=e103]: 
+                - text: Search ...
+              - text: 
+            - generic [ref=e108]:
+              - generic [ref=e110]: $0.00
+              - generic [ref=e112]: Estimated Total
+          - generic [ref=e113]:
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - link "Open" [ref=e117] [cursor=pointer]:
+                  - /url: ""
+              - listitem [ref=e118]:
+                - link "Closed" [ref=e119] [cursor=pointer]:
+                  - /url: ""
+              - generic [ref=e120]: "Total Estimates:"
+            - text: ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+      - generic [ref=e124]:
+        - img [ref=e126]
+        - heading "Loading . . . ." [level=4] [ref=e136]
+```

@@ -1,0 +1,137 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - text: 
+    - navigation [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - text: 
+          - listitem [ref=e12]:
+            - link " Orders" [ref=e13] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e15]:
+                - generic [ref=e16]: 
+                - text: Orders
+          - listitem [ref=e17]:
+            - link " Customers" [ref=e18] [cursor=pointer]:
+              - /url: "#/app/customers"
+              - generic [ref=e20]:
+                - generic [ref=e21]: 
+                - text: Customers
+          - listitem [ref=e22]:
+            - link " Rates" [ref=e23] [cursor=pointer]:
+              - /url: "#/app/tariff/0/active"
+              - generic [ref=e25]:
+                - generic [ref=e26]: 
+                - text: Rates
+          - listitem [ref=e27]:
+            - link " My Schedule" [ref=e28] [cursor=pointer]:
+              - /url: "#/app/user-calendar"
+              - generic [ref=e30]:
+                - generic [ref=e31]: 
+                - text: My Schedule
+          - listitem [ref=e32]:
+            - link " All Documents" [active] [ref=e33] [cursor=pointer]:
+              - /url: "#/app/documents"
+              - generic [ref=e35]:
+                - generic [ref=e36]: 
+                - text: All Documents
+          - listitem [ref=e37]:
+            - link " Reports" [ref=e38] [cursor=pointer]:
+              - /url: "#/app/reports"
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: Reports
+          - listitem [ref=e42]:
+            - link " Settings" [ref=e43] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e45]:
+                - generic [ref=e46]: 
+                - text: Settings
+  - generic [ref=e47]:
+    - banner [ref=e49]:
+      - generic [ref=e50]:
+        - text:  
+        - generic:
+          - link "Quote2Cash " [ref=e51] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Quote2Cash
+            - generic [ref=e53]: 
+          - link "Q2C " [ref=e54] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Q2C
+            - generic [ref=e56]: 
+        - text:   
+      - generic [ref=e57]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - button [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: 
+          - listitem [ref=e63]:
+            - generic [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+              - text: 
+          - listitem [ref=e66]:
+            - link [ref=e67] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e68]: 
+              - text: Create
+        - listitem [ref=e73]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e75]: 
+            - text: Alerts
+          - text:  
+        - listitem [ref=e80]:
+          - link [ref=e81] [cursor=pointer]:
+            - /url: "#/app/jobReminder?type=task"
+            - generic [ref=e82]: 
+            - text: Task
+        - text:  
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - generic [ref=e85] [cursor=pointer]: Bvl
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link " Home" [ref=e92] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e93]: 
+              - text: Home
+          - listitem [ref=e94]: / All Documents
+        - generic [ref=e100]:
+          - heading "All Documents" [level=3] [ref=e103]
+          - generic [ref=e104]:
+            - text:  
+            - generic [ref=e105]:
+              - generic [ref=e106]:
+                - button " Search Documents..." [ref=e108] [cursor=pointer]:
+                  - generic [ref=e109]: 
+                  - text: Search Documents...
+                - text: 
+              - text:  
+          - generic [ref=e110]:
+            - text: ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+            - table [ref=e111]:
+              - rowgroup [ref=e112]:
+                - 'row "Select Signed Doc Type Order Ref # Doc # Create Date Created By Sent Date Send To Action" [ref=e113]':
+                  - columnheader "Select" [ref=e114]
+                  - columnheader "Signed" [ref=e115]
+                  - columnheader "Doc Type" [ref=e116]
+                  - 'columnheader "Order Ref #" [ref=e117]'
+                  - 'columnheader "Doc #" [ref=e118]'
+                  - columnheader "Create Date" [ref=e119]
+                  - columnheader "Created By" [ref=e120]
+                  - columnheader "Sent Date" [ref=e121]
+                  - columnheader "Send To" [ref=e122]
+                  - columnheader "Action" [ref=e123]
+              - rowgroup [ref=e124]:
+                - row "No Records Found" [ref=e125]:
+                  - cell "No Records Found" [ref=e126]
+      - generic [ref=e128]:
+        - img [ref=e130]
+        - heading "Loading . . . ." [level=4] [ref=e140]
+```
