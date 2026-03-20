@@ -1,0 +1,132 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - text: 
+    - navigation [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - text: 
+          - listitem [ref=e12]:
+            - link " Estimates" [ref=e13] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e15]:
+                - generic [ref=e16]: 
+                - text: Estimates
+          - listitem [ref=e17]:
+            - link " Customers" [ref=e18] [cursor=pointer]:
+              - /url: "#/app/customers"
+              - generic [ref=e20]:
+                - generic [ref=e21]: 
+                - text: Customers
+          - listitem [ref=e22]:
+            - link " My Schedule" [ref=e23] [cursor=pointer]:
+              - /url: "#/app/user-calendar"
+              - generic [ref=e25]:
+                - generic [ref=e26]: 
+                - text: My Schedule
+          - listitem [ref=e27]:
+            - link " All Documents" [ref=e28] [cursor=pointer]:
+              - /url: "#/app/documents"
+              - generic [ref=e30]:
+                - generic [ref=e31]: 
+                - text: All Documents
+          - listitem [ref=e32]:
+            - link " Reports" [ref=e33] [cursor=pointer]:
+              - /url: "#/app/reports"
+              - generic [ref=e35]:
+                - generic [ref=e36]: 
+                - text: Reports
+          - listitem [ref=e37]:
+            - link " Settings" [ref=e38] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: Settings
+  - generic [ref=e42]:
+    - banner [ref=e44]:
+      - generic [ref=e45]:
+        - text:  
+        - generic:
+          - link "Quote2Cash " [ref=e46] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Quote2Cash
+            - generic [ref=e48]: 
+          - link "Q2C " [ref=e49] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Q2C
+            - generic [ref=e51]: 
+        - text:   
+      - generic [ref=e52]:
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - button [ref=e56] [cursor=pointer]:
+              - generic [ref=e57]: 
+          - listitem [ref=e58]:
+            - generic [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: 
+              - text: 
+          - listitem [ref=e61]:
+            - link [ref=e62] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e63]: 
+              - text: Create
+        - generic [ref=e65]:
+          - generic [ref=e67]: "18"
+          - listitem [ref=e70]:
+            - link [ref=e71] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e72]: 
+              - text: Alerts
+            - text:  
+        - listitem [ref=e77]:
+          - link [ref=e78] [cursor=pointer]:
+            - /url: "#/app/jobReminder?type=task"
+            - generic [ref=e79]: 
+            - text: Task
+        - text:  
+        - list [ref=e80]:
+          - listitem [ref=e81]:
+            - generic [ref=e82] [cursor=pointer]: Michael
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - link " Home" [ref=e89] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e90]: 
+              - text: Home
+          - listitem [ref=e91]: / Estimates
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - generic [ref=e101]:
+              - button " Search ..." [ref=e104] [cursor=pointer]:
+                - generic [ref=e105]: 
+                - text: Search ...
+              - text: 
+            - generic [ref=e107]:
+              - generic [ref=e111] [cursor=pointer]: Quote
+              - generic [ref=e115] [cursor=pointer]: Estimate
+              - generic [ref=e119] [cursor=pointer]: Estimate Sent
+              - generic [ref=e123] [cursor=pointer]: Rating
+              - generic [ref=e127] [cursor=pointer]: In Storage
+              - generic [ref=e131] [cursor=pointer]: Booking Pending
+              - generic [ref=e135] [cursor=pointer]: Booked
+            - generic [ref=e138]:
+              - generic [ref=e140]: $0.00
+              - generic [ref=e142]: Estimated Total
+          - generic [ref=e143]:
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Open" [ref=e147] [cursor=pointer]:
+                  - /url: ""
+              - listitem [ref=e148]:
+                - link "Closed" [ref=e149] [cursor=pointer]:
+                  - /url: ""
+              - generic [ref=e150]: "Total Estimates:"
+            - text: ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+      - generic [ref=e154]:
+        - img [ref=e156]
+        - heading "Loading . . . ." [level=4] [ref=e172]
+```

@@ -1,0 +1,733 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - text: 
+    - navigation [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - text: 
+          - listitem [ref=e12]:
+            - link " Orders" [ref=e13] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e15]:
+                - generic [ref=e16]: 
+                - text: Orders
+          - listitem [ref=e17]:
+            - link " Customers" [ref=e18] [cursor=pointer]:
+              - /url: "#/app/customers"
+              - generic [ref=e20]:
+                - generic [ref=e21]: 
+                - text: Customers
+          - listitem [ref=e22]:
+            - link " Rates" [ref=e23] [cursor=pointer]:
+              - /url: "#/app/tariff/0/active"
+              - generic [ref=e25]:
+                - generic [ref=e26]: 
+                - text: Rates
+          - listitem [ref=e27]:
+            - link " My Schedule" [ref=e28] [cursor=pointer]:
+              - /url: "#/app/user-calendar"
+              - generic [ref=e30]:
+                - generic [ref=e31]: 
+                - text: My Schedule
+          - listitem [ref=e32]:
+            - link " All Documents" [ref=e33] [cursor=pointer]:
+              - /url: "#/app/documents"
+              - generic [ref=e35]:
+                - generic [ref=e36]: 
+                - text: All Documents
+          - listitem [ref=e37]:
+            - link " Reports" [ref=e38] [cursor=pointer]:
+              - /url: "#/app/reports"
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: Reports
+          - listitem [ref=e42]:
+            - link " Settings" [ref=e43] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e45]:
+                - generic [ref=e46]: 
+                - text: Settings
+  - generic [ref=e47]:
+    - banner [ref=e49]:
+      - generic [ref=e50]:
+        - text:  
+        - generic:
+          - link "Quote2Cash " [ref=e51] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Quote2Cash
+            - generic [ref=e53]: 
+          - link "Q2C " [ref=e54] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Q2C
+            - generic [ref=e56]: 
+        - text:   
+      - generic [ref=e57]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - button [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: 
+          - listitem [ref=e63]:
+            - generic [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+              - text: 
+          - listitem [ref=e66]:
+            - link [ref=e67] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e68]: 
+              - text: Create
+        - listitem [ref=e73]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e75]: 
+            - text: Alerts
+          - text:  
+        - listitem [ref=e80]:
+          - link [ref=e81] [cursor=pointer]:
+            - /url: "#/app/jobReminder?type=task"
+            - generic [ref=e82]: 
+            - text: Task
+        - text:  
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - generic [ref=e85] [cursor=pointer]: Bvl
+    - generic [ref=e88]:
+      - list [ref=e90]:
+        - listitem [ref=e91]:
+          - link " Home" [ref=e92] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - generic [ref=e93]: 
+            - text: Home
+        - listitem [ref=e94]: / Orders
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e104]:
+            - button " Search ..." [ref=e107] [cursor=pointer]:
+              - generic [ref=e108]: 
+              - text: Search ...
+            - text: 
+          - generic [ref=e110]:
+            - generic [ref=e112] [cursor=pointer]:
+              - generic [ref=e113]: $54,690,233.75
+              - generic [ref=e115]: Quote
+            - generic [ref=e117] [cursor=pointer]:
+              - generic [ref=e118]: $1,237,358.93
+              - generic [ref=e120]: Estimate
+            - generic [ref=e122] [cursor=pointer]:
+              - generic [ref=e123]: $841,313.73
+              - generic [ref=e125]: Estimate Sent
+            - generic [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: $13,889,534.69
+              - generic [ref=e130]: Rating
+            - generic [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: $6,895,746.32
+              - generic [ref=e135]: In Storage
+            - generic [ref=e137] [cursor=pointer]:
+              - generic [ref=e138]: $18,909,201.17
+              - generic [ref=e140]: Booking Pending
+            - generic [ref=e142] [cursor=pointer]:
+              - generic [ref=e143]: $1,289,550.75
+              - generic [ref=e145]: Booked
+          - generic [ref=e148]:
+            - generic [ref=e150]: $97,752,939.34
+            - generic [ref=e152]: Estimated Total
+        - generic [ref=e153]:
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "Open" [ref=e157] [cursor=pointer]:
+                - /url: ""
+            - listitem [ref=e158]:
+              - link "Closed" [ref=e159] [cursor=pointer]:
+                - /url: ""
+            - generic [ref=e160]: "Total Orders: 2689"
+          - table [ref=e163]:
+            - rowgroup [ref=e164]:
+              - 'row "Order Ref # Customer Name Status Account Name Email Phone # Est Move Date Created By Created Date Amount" [ref=e165]':
+                - 'columnheader "Order Ref #" [ref=e166] [cursor=pointer]': "Order Ref # ▲"
+                - columnheader "Customer Name" [ref=e167] [cursor=pointer]: Customer Name ▲
+                - columnheader "Status" [ref=e168] [cursor=pointer]: Status ▲
+                - columnheader "Account Name" [ref=e169] [cursor=pointer]: Account Name ▲
+                - columnheader "Email" [ref=e170] [cursor=pointer]: Email ▲
+                - 'columnheader "Phone #" [ref=e171] [cursor=pointer]': "Phone # ▲"
+                - columnheader "Est Move Date" [ref=e172] [cursor=pointer]: Est Move Date ▲
+                - columnheader "Created By" [ref=e173] [cursor=pointer]: Created By ▲
+                - columnheader "Created Date" [ref=e174] [cursor=pointer]: Created Date ▲
+                - columnheader "Amount" [ref=e175] [cursor=pointer]: Amount ▲
+            - rowgroup [ref=e176]:
+              - row "ORD-2024-0001 Sarah Williams Quote Unassigned sarah.williams@example.com (555) 456-7890 None Bvl User 03/20/2026 2:53 PM $0.00" [ref=e177] [cursor=pointer]:
+                - cell "ORD-2024-0001" [ref=e178]:
+                  - generic [ref=e179]: ORD-2024-0001
+                - cell "Sarah Williams" [ref=e180]:
+                  - generic [ref=e181]: Sarah Williams
+                - cell "Quote" [ref=e182]
+                - cell "Unassigned" [ref=e183]:
+                  - generic [ref=e184]: Unassigned
+                - cell "sarah.williams@example.com" [ref=e185]:
+                  - generic [ref=e186]: sarah.williams@example.com
+                - cell "(555) 456-7890" [ref=e187]:
+                  - generic [ref=e188]: (555) 456-7890
+                - cell "None" [ref=e189]:
+                  - generic [ref=e190]: None
+                - cell "Bvl User" [ref=e191]:
+                  - generic [ref=e192]:
+                    - text: Bvl User
+                    - generic [ref=e193]: 
+                - cell "03/20/2026 2:53 PM" [ref=e194]:
+                  - generic [ref=e195]: 03/20/2026 2:53 PM
+                - cell "$0.00" [ref=e196]:
+                  - generic [ref=e198]: $0.00
+            - rowgroup [ref=e199]:
+              - row "None Michael Johnson Quote Unassigned michael.johnson@example.com (555) 234-5678 None Bvl User 03/20/2026 2:53 PM $0.00" [ref=e200] [cursor=pointer]:
+                - cell "None" [ref=e201]:
+                  - generic [ref=e202]: None
+                - cell "Michael Johnson" [ref=e203]:
+                  - generic [ref=e204]: Michael Johnson
+                - cell "Quote" [ref=e205]
+                - cell "Unassigned" [ref=e206]:
+                  - generic [ref=e207]: Unassigned
+                - cell "michael.johnson@example.com" [ref=e208]:
+                  - generic [ref=e209]: michael.johnson@example.com
+                - cell "(555) 234-5678" [ref=e210]:
+                  - generic [ref=e211]: (555) 234-5678
+                - cell "None" [ref=e212]:
+                  - generic [ref=e213]: None
+                - cell "Bvl User" [ref=e214]:
+                  - generic [ref=e215]:
+                    - text: Bvl User
+                    - generic [ref=e216]: 
+                - cell "03/20/2026 2:53 PM" [ref=e217]:
+                  - generic [ref=e218]: 03/20/2026 2:53 PM
+                - cell "$0.00" [ref=e219]:
+                  - generic [ref=e221]: $0.00
+            - rowgroup [ref=e222]:
+              - row "ORD-2024-0001 Sarah Williams Quote Unassigned sarah.williams@example.com (555) 456-7890 None Bvl User 03/20/2026 2:37 PM $0.00" [ref=e223] [cursor=pointer]:
+                - cell "ORD-2024-0001" [ref=e224]:
+                  - generic [ref=e225]: ORD-2024-0001
+                - cell "Sarah Williams" [ref=e226]:
+                  - generic [ref=e227]: Sarah Williams
+                - cell "Quote" [ref=e228]
+                - cell "Unassigned" [ref=e229]:
+                  - generic [ref=e230]: Unassigned
+                - cell "sarah.williams@example.com" [ref=e231]:
+                  - generic [ref=e232]: sarah.williams@example.com
+                - cell "(555) 456-7890" [ref=e233]:
+                  - generic [ref=e234]: (555) 456-7890
+                - cell "None" [ref=e235]:
+                  - generic [ref=e236]: None
+                - cell "Bvl User" [ref=e237]:
+                  - generic [ref=e238]:
+                    - text: Bvl User
+                    - generic [ref=e239]: 
+                - cell "03/20/2026 2:37 PM" [ref=e240]:
+                  - generic [ref=e241]: 03/20/2026 2:37 PM
+                - cell "$0.00" [ref=e242]:
+                  - generic [ref=e244]: $0.00
+            - rowgroup [ref=e245]:
+              - row "None Michael Johnson Quote Unassigned michael.johnson@example.com (555) 234-5678 None Bvl User 03/20/2026 2:37 PM $0.00" [ref=e246] [cursor=pointer]:
+                - cell "None" [ref=e247]:
+                  - generic [ref=e248]: None
+                - cell "Michael Johnson" [ref=e249]:
+                  - generic [ref=e250]: Michael Johnson
+                - cell "Quote" [ref=e251]
+                - cell "Unassigned" [ref=e252]:
+                  - generic [ref=e253]: Unassigned
+                - cell "michael.johnson@example.com" [ref=e254]:
+                  - generic [ref=e255]: michael.johnson@example.com
+                - cell "(555) 234-5678" [ref=e256]:
+                  - generic [ref=e257]: (555) 234-5678
+                - cell "None" [ref=e258]:
+                  - generic [ref=e259]: None
+                - cell "Bvl User" [ref=e260]:
+                  - generic [ref=e261]:
+                    - text: Bvl User
+                    - generic [ref=e262]: 
+                - cell "03/20/2026 2:37 PM" [ref=e263]:
+                  - generic [ref=e264]: 03/20/2026 2:37 PM
+                - cell "$0.00" [ref=e265]:
+                  - generic [ref=e267]: $0.00
+            - rowgroup [ref=e268]:
+              - row "None Robert Johnson Quote Unassigned robert.johnson@example.com (555) 123-4567 None Bvl User 03/20/2026 2:30 PM $0.00" [ref=e269] [cursor=pointer]:
+                - cell "None" [ref=e270]:
+                  - generic [ref=e271]: None
+                - cell "Robert Johnson" [ref=e272]:
+                  - generic [ref=e273]: Robert Johnson
+                - cell "Quote" [ref=e274]
+                - cell "Unassigned" [ref=e275]:
+                  - generic [ref=e276]: Unassigned
+                - cell "robert.johnson@example.com" [ref=e277]:
+                  - generic [ref=e278]: robert.johnson@example.com
+                - cell "(555) 123-4567" [ref=e279]:
+                  - generic [ref=e280]: (555) 123-4567
+                - cell "None" [ref=e281]:
+                  - generic [ref=e282]: None
+                - cell "Bvl User" [ref=e283]:
+                  - generic [ref=e284]:
+                    - text: Bvl User
+                    - generic [ref=e285]: 
+                - cell "03/20/2026 2:30 PM" [ref=e286]:
+                  - generic [ref=e287]: 03/20/2026 2:30 PM
+                - cell "$0.00" [ref=e288]:
+                  - generic [ref=e290]: $0.00
+            - rowgroup [ref=e291]:
+              - row "None Michael Porter Quote Unassigned michael.porter@example.com (555) 345-6789 None Bvl User 03/20/2026 2:29 PM $0.00" [ref=e292] [cursor=pointer]:
+                - cell "None" [ref=e293]:
+                  - generic [ref=e294]: None
+                - cell "Michael Porter" [ref=e295]:
+                  - generic [ref=e296]: Michael Porter
+                - cell "Quote" [ref=e297]
+                - cell "Unassigned" [ref=e298]:
+                  - generic [ref=e299]: Unassigned
+                - cell "michael.porter@example.com" [ref=e300]:
+                  - generic [ref=e301]: michael.porter@example.com
+                - cell "(555) 345-6789" [ref=e302]:
+                  - generic [ref=e303]: (555) 345-6789
+                - cell "None" [ref=e304]:
+                  - generic [ref=e305]: None
+                - cell "Bvl User" [ref=e306]:
+                  - generic [ref=e307]:
+                    - text: Bvl User
+                    - generic [ref=e308]: 
+                - cell "03/20/2026 2:29 PM" [ref=e309]:
+                  - generic [ref=e310]: 03/20/2026 2:29 PM
+                - cell "$0.00" [ref=e311]:
+                  - generic [ref=e313]: $0.00
+            - rowgroup [ref=e314]:
+              - row "1219 jack sparrow In Storage Unassigned bhuvana.ramesh@braveryinfotech.com (456) 709-8256 None Bvl User 03/20/2026 12:16 PM $218.40" [ref=e315] [cursor=pointer]:
+                - cell "1219" [ref=e316]:
+                  - generic [ref=e317]: "1219"
+                - cell "jack sparrow" [ref=e318]:
+                  - generic [ref=e319]: jack sparrow
+                - cell "In Storage" [ref=e320]
+                - cell "Unassigned" [ref=e321]:
+                  - generic [ref=e322]: Unassigned
+                - cell "bhuvana.ramesh@braveryinfotech.com" [ref=e323]:
+                  - generic [ref=e324]: bhuvana.ramesh@braveryinfotech.com
+                - cell "(456) 709-8256" [ref=e325]:
+                  - generic [ref=e326]: (456) 709-8256
+                - cell "None" [ref=e327]:
+                  - generic [ref=e328]: None
+                - cell "Bvl User" [ref=e329]:
+                  - generic [ref=e330]:
+                    - text: Bvl User
+                    - generic [ref=e331]: 
+                - cell "03/20/2026 12:16 PM" [ref=e332]:
+                  - generic [ref=e333]: 03/20/2026 12:16 PM
+                - cell "$218.40" [ref=e334]:
+                  - generic [ref=e336]: $218.40
+            - rowgroup [ref=e338]:
+              - row "2378 Bhuvana Ramesh In Storage Unassigned bhuvana.ramesh@braveryinfotech.com (456) 709-8256 None Bvl User 03/20/2026 10:40 AM $0.00" [ref=e339] [cursor=pointer]:
+                - cell "2378" [ref=e340]:
+                  - generic [ref=e341]: "2378"
+                - cell "Bhuvana Ramesh" [ref=e342]:
+                  - generic [ref=e343]: Bhuvana Ramesh
+                - cell "In Storage" [ref=e344]
+                - cell "Unassigned" [ref=e345]:
+                  - generic [ref=e346]: Unassigned
+                - cell "bhuvana.ramesh@braveryinfotech.com" [ref=e347]:
+                  - generic [ref=e348]: bhuvana.ramesh@braveryinfotech.com
+                - cell "(456) 709-8256" [ref=e349]:
+                  - generic [ref=e350]: (456) 709-8256
+                - cell "None" [ref=e351]:
+                  - generic [ref=e352]: None
+                - cell "Bvl User" [ref=e353]:
+                  - generic [ref=e354]:
+                    - text: Bvl User
+                    - generic [ref=e355]: 
+                - cell "03/20/2026 10:40 AM" [ref=e356]:
+                  - generic [ref=e357]: 03/20/2026 10:40 AM
+                - cell "$0.00" [ref=e358]:
+                  - generic [ref=e360]: $0.00
+            - rowgroup [ref=e361]:
+              - row "112 jack spot In Storage Unassigned bhuvana.ramesh@braveryinfotech.com (789) 556-6352 None Bvl User 03/19/2026 4:36 PM $11.20" [ref=e362] [cursor=pointer]:
+                - cell "112" [ref=e363]:
+                  - generic [ref=e364]: "112"
+                - cell "jack spot" [ref=e365]:
+                  - generic [ref=e366]: jack spot
+                - cell "In Storage" [ref=e367]
+                - cell "Unassigned" [ref=e368]:
+                  - generic [ref=e369]: Unassigned
+                - cell "bhuvana.ramesh@braveryinfotech.com" [ref=e370]:
+                  - generic [ref=e371]: bhuvana.ramesh@braveryinfotech.com
+                - cell "(789) 556-6352" [ref=e372]:
+                  - generic [ref=e373]: (789) 556-6352
+                - cell "None" [ref=e374]:
+                  - generic [ref=e375]: None
+                - cell "Bvl User" [ref=e376]:
+                  - generic [ref=e377]:
+                    - text: Bvl User
+                    - generic [ref=e378]: 
+                - cell "03/19/2026 4:36 PM" [ref=e379]:
+                  - generic [ref=e380]: 03/19/2026 4:36 PM
+                - cell "$11.20" [ref=e381]:
+                  - generic [ref=e383]: $11.20
+            - rowgroup [ref=e385]:
+              - row "100 John Doe In Storage Unassigned avinash@quote2cash.com (609) 897-4515 None Bvl User 03/19/2026 4:11 PM $12.60" [ref=e386] [cursor=pointer]:
+                - cell "100" [ref=e387]:
+                  - generic [ref=e388]: "100"
+                - cell "John Doe" [ref=e389]:
+                  - generic [ref=e390]: John Doe
+                - cell "In Storage" [ref=e391]
+                - cell "Unassigned" [ref=e392]:
+                  - generic [ref=e393]: Unassigned
+                - cell "avinash@quote2cash.com" [ref=e394]:
+                  - generic [ref=e395]: avinash@quote2cash.com
+                - cell "(609) 897-4515" [ref=e396]:
+                  - generic [ref=e397]: (609) 897-4515
+                - cell "None" [ref=e398]:
+                  - generic [ref=e399]: None
+                - cell "Bvl User" [ref=e400]:
+                  - generic [ref=e401]:
+                    - text: Bvl User
+                    - generic [ref=e402]: 
+                - cell "03/19/2026 4:11 PM" [ref=e403]:
+                  - generic [ref=e404]: 03/19/2026 4:11 PM
+                - cell "$12.60" [ref=e405]:
+                  - generic [ref=e407]: $12.60
+            - rowgroup [ref=e409]:
+              - row "100 Hendry Paul In Storage Unassigned avinash@quote2cash.com (659) 874-1256 None Bvl User 03/19/2026 4:05 PM $12.60" [ref=e410] [cursor=pointer]:
+                - cell "100" [ref=e411]:
+                  - generic [ref=e412]: "100"
+                - cell "Hendry Paul" [ref=e413]:
+                  - generic [ref=e414]: Hendry Paul
+                - cell "In Storage" [ref=e415]
+                - cell "Unassigned" [ref=e416]:
+                  - generic [ref=e417]: Unassigned
+                - cell "avinash@quote2cash.com" [ref=e418]:
+                  - generic [ref=e419]: avinash@quote2cash.com
+                - cell "(659) 874-1256" [ref=e420]:
+                  - generic [ref=e421]: (659) 874-1256
+                - cell "None" [ref=e422]:
+                  - generic [ref=e423]: None
+                - cell "Bvl User" [ref=e424]:
+                  - generic [ref=e425]:
+                    - text: Bvl User
+                    - generic [ref=e426]: 
+                - cell "03/19/2026 4:05 PM" [ref=e427]:
+                  - generic [ref=e428]: 03/19/2026 4:05 PM
+                - cell "$12.60" [ref=e429]:
+                  - generic [ref=e431]: $12.60
+            - rowgroup [ref=e433]:
+              - row "100 Michael Roger Quote Unassigned avinash@quote2cash.com (609) 897-4515 None Bvl User 03/19/2026 3:46 PM $8.40" [ref=e434] [cursor=pointer]:
+                - cell "100" [ref=e435]:
+                  - generic [ref=e436]: "100"
+                - cell "Michael Roger" [ref=e437]:
+                  - generic [ref=e438]: Michael Roger
+                - cell "Quote" [ref=e439]
+                - cell "Unassigned" [ref=e440]:
+                  - generic [ref=e441]: Unassigned
+                - cell "avinash@quote2cash.com" [ref=e442]:
+                  - generic [ref=e443]: avinash@quote2cash.com
+                - cell "(609) 897-4515" [ref=e444]:
+                  - generic [ref=e445]: (609) 897-4515
+                - cell "None" [ref=e446]:
+                  - generic [ref=e447]: None
+                - cell "Bvl User" [ref=e448]:
+                  - generic [ref=e449]:
+                    - text: Bvl User
+                    - generic [ref=e450]: 
+                - cell "03/19/2026 3:46 PM" [ref=e451]:
+                  - generic [ref=e452]: 03/19/2026 3:46 PM
+                - cell "$8.40" [ref=e453]:
+                  - generic [ref=e455]: $8.40
+            - rowgroup [ref=e457]:
+              - row "100 Bhuvana Ramesh In Storage Unassigned bhuvana.ramesh@braveryinfotech.com (765) 437-8901 None Bvl User 03/19/2026 3:41 PM $8.40" [ref=e458] [cursor=pointer]:
+                - cell "100" [ref=e459]:
+                  - generic [ref=e460]: "100"
+                - cell "Bhuvana Ramesh" [ref=e461]:
+                  - generic [ref=e462]: Bhuvana Ramesh
+                - cell "In Storage" [ref=e463]
+                - cell "Unassigned" [ref=e464]:
+                  - generic [ref=e465]: Unassigned
+                - cell "bhuvana.ramesh@braveryinfotech.com" [ref=e466]:
+                  - generic [ref=e467]: bhuvana.ramesh@braveryinfotech.com
+                - cell "(765) 437-8901" [ref=e468]:
+                  - generic [ref=e469]: (765) 437-8901
+                - cell "None" [ref=e470]:
+                  - generic [ref=e471]: None
+                - cell "Bvl User" [ref=e472]:
+                  - generic [ref=e473]:
+                    - text: Bvl User
+                    - generic [ref=e474]: 
+                - cell "03/19/2026 3:41 PM" [ref=e475]:
+                  - generic [ref=e476]: 03/19/2026 3:41 PM
+                - cell "$8.40" [ref=e477]:
+                  - generic [ref=e479]: $8.40
+            - rowgroup [ref=e481]:
+              - row "100 Jim sim In Storage Unassigned avinash@quote2cash.com (659) 874-1236 None Bvl User 03/19/2026 3:31 PM $12.60" [ref=e482] [cursor=pointer]:
+                - cell "100" [ref=e483]:
+                  - generic [ref=e484]: "100"
+                - cell "Jim sim" [ref=e485]:
+                  - generic [ref=e486]: Jim sim
+                - cell "In Storage" [ref=e487]
+                - cell "Unassigned" [ref=e488]:
+                  - generic [ref=e489]: Unassigned
+                - cell "avinash@quote2cash.com" [ref=e490]:
+                  - generic [ref=e491]: avinash@quote2cash.com
+                - cell "(659) 874-1236" [ref=e492]:
+                  - generic [ref=e493]: (659) 874-1236
+                - cell "None" [ref=e494]:
+                  - generic [ref=e495]: None
+                - cell "Bvl User" [ref=e496]:
+                  - generic [ref=e497]:
+                    - text: Bvl User
+                    - generic [ref=e498]: 
+                - cell "03/19/2026 3:31 PM" [ref=e499]:
+                  - generic [ref=e500]: 03/19/2026 3:31 PM
+                - cell "$12.60" [ref=e501]:
+                  - generic [ref=e503]: $12.60
+            - rowgroup [ref=e505]:
+              - row "ORD-2024-0001 Sarah Williams Quote Unassigned sarah.williams@example.com (555) 456-7890 None Bvl User 03/19/2026 1:41 PM $0.00" [ref=e506] [cursor=pointer]:
+                - cell "ORD-2024-0001" [ref=e507]:
+                  - generic [ref=e508]: ORD-2024-0001
+                - cell "Sarah Williams" [ref=e509]:
+                  - generic [ref=e510]: Sarah Williams
+                - cell "Quote" [ref=e511]
+                - cell "Unassigned" [ref=e512]:
+                  - generic [ref=e513]: Unassigned
+                - cell "sarah.williams@example.com" [ref=e514]:
+                  - generic [ref=e515]: sarah.williams@example.com
+                - cell "(555) 456-7890" [ref=e516]:
+                  - generic [ref=e517]: (555) 456-7890
+                - cell "None" [ref=e518]:
+                  - generic [ref=e519]: None
+                - cell "Bvl User" [ref=e520]:
+                  - generic [ref=e521]:
+                    - text: Bvl User
+                    - generic [ref=e522]: 
+                - cell "03/19/2026 1:41 PM" [ref=e523]:
+                  - generic [ref=e524]: 03/19/2026 1:41 PM
+                - cell "$0.00" [ref=e525]:
+                  - generic [ref=e527]: $0.00
+            - rowgroup [ref=e528]:
+              - row "None Michael Johnson Quote Unassigned michael.johnson@example.com (555) 234-5678 None Bvl User 03/19/2026 1:41 PM $0.00" [ref=e529] [cursor=pointer]:
+                - cell "None" [ref=e530]:
+                  - generic [ref=e531]: None
+                - cell "Michael Johnson" [ref=e532]:
+                  - generic [ref=e533]: Michael Johnson
+                - cell "Quote" [ref=e534]
+                - cell "Unassigned" [ref=e535]:
+                  - generic [ref=e536]: Unassigned
+                - cell "michael.johnson@example.com" [ref=e537]:
+                  - generic [ref=e538]: michael.johnson@example.com
+                - cell "(555) 234-5678" [ref=e539]:
+                  - generic [ref=e540]: (555) 234-5678
+                - cell "None" [ref=e541]:
+                  - generic [ref=e542]: None
+                - cell "Bvl User" [ref=e543]:
+                  - generic [ref=e544]:
+                    - text: Bvl User
+                    - generic [ref=e545]: 
+                - cell "03/19/2026 1:41 PM" [ref=e546]:
+                  - generic [ref=e547]: 03/19/2026 1:41 PM
+                - cell "$0.00" [ref=e548]:
+                  - generic [ref=e550]: $0.00
+            - rowgroup [ref=e551]:
+              - row "None Robert Johnson Quote Unassigned robert.johnson@example.com (555) 123-4567 None Bvl User 03/19/2026 1:32 PM $0.00" [ref=e552] [cursor=pointer]:
+                - cell "None" [ref=e553]:
+                  - generic [ref=e554]: None
+                - cell "Robert Johnson" [ref=e555]:
+                  - generic [ref=e556]: Robert Johnson
+                - cell "Quote" [ref=e557]
+                - cell "Unassigned" [ref=e558]:
+                  - generic [ref=e559]: Unassigned
+                - cell "robert.johnson@example.com" [ref=e560]:
+                  - generic [ref=e561]: robert.johnson@example.com
+                - cell "(555) 123-4567" [ref=e562]:
+                  - generic [ref=e563]: (555) 123-4567
+                - cell "None" [ref=e564]:
+                  - generic [ref=e565]: None
+                - cell "Bvl User" [ref=e566]:
+                  - generic [ref=e567]:
+                    - text: Bvl User
+                    - generic [ref=e568]: 
+                - cell "03/19/2026 1:32 PM" [ref=e569]:
+                  - generic [ref=e570]: 03/19/2026 1:32 PM
+                - cell "$0.00" [ref=e571]:
+                  - generic [ref=e573]: $0.00
+            - rowgroup [ref=e574]:
+              - row "ORD-2024-0001 Sarah Williams Quote Unassigned sarah.williams@example.com (555) 456-7890 None Bvl User 03/19/2026 1:24 PM $0.00" [ref=e575] [cursor=pointer]:
+                - cell "ORD-2024-0001" [ref=e576]:
+                  - generic [ref=e577]: ORD-2024-0001
+                - cell "Sarah Williams" [ref=e578]:
+                  - generic [ref=e579]: Sarah Williams
+                - cell "Quote" [ref=e580]
+                - cell "Unassigned" [ref=e581]:
+                  - generic [ref=e582]: Unassigned
+                - cell "sarah.williams@example.com" [ref=e583]:
+                  - generic [ref=e584]: sarah.williams@example.com
+                - cell "(555) 456-7890" [ref=e585]:
+                  - generic [ref=e586]: (555) 456-7890
+                - cell "None" [ref=e587]:
+                  - generic [ref=e588]: None
+                - cell "Bvl User" [ref=e589]:
+                  - generic [ref=e590]:
+                    - text: Bvl User
+                    - generic [ref=e591]: 
+                - cell "03/19/2026 1:24 PM" [ref=e592]:
+                  - generic [ref=e593]: 03/19/2026 1:24 PM
+                - cell "$0.00" [ref=e594]:
+                  - generic [ref=e596]: $0.00
+            - rowgroup [ref=e597]:
+              - row "None Michael Johnson Quote Unassigned michael.johnson@example.com (555) 234-5678 None Bvl User 03/19/2026 1:23 PM $0.00" [ref=e598] [cursor=pointer]:
+                - cell "None" [ref=e599]:
+                  - generic [ref=e600]: None
+                - cell "Michael Johnson" [ref=e601]:
+                  - generic [ref=e602]: Michael Johnson
+                - cell "Quote" [ref=e603]
+                - cell "Unassigned" [ref=e604]:
+                  - generic [ref=e605]: Unassigned
+                - cell "michael.johnson@example.com" [ref=e606]:
+                  - generic [ref=e607]: michael.johnson@example.com
+                - cell "(555) 234-5678" [ref=e608]:
+                  - generic [ref=e609]: (555) 234-5678
+                - cell "None" [ref=e610]:
+                  - generic [ref=e611]: None
+                - cell "Bvl User" [ref=e612]:
+                  - generic [ref=e613]:
+                    - text: Bvl User
+                    - generic [ref=e614]: 
+                - cell "03/19/2026 1:23 PM" [ref=e615]:
+                  - generic [ref=e616]: 03/19/2026 1:23 PM
+                - cell "$0.00" [ref=e617]:
+                  - generic [ref=e619]: $0.00
+            - rowgroup [ref=e620]:
+              - row "None Robert Johnson Quote Unassigned robert.johnson@example.com (555) 123-4567 None Bvl User 03/19/2026 1:16 PM $0.00" [ref=e621] [cursor=pointer]:
+                - cell "None" [ref=e622]:
+                  - generic [ref=e623]: None
+                - cell "Robert Johnson" [ref=e624]:
+                  - generic [ref=e625]: Robert Johnson
+                - cell "Quote" [ref=e626]
+                - cell "Unassigned" [ref=e627]:
+                  - generic [ref=e628]: Unassigned
+                - cell "robert.johnson@example.com" [ref=e629]:
+                  - generic [ref=e630]: robert.johnson@example.com
+                - cell "(555) 123-4567" [ref=e631]:
+                  - generic [ref=e632]: (555) 123-4567
+                - cell "None" [ref=e633]:
+                  - generic [ref=e634]: None
+                - cell "Bvl User" [ref=e635]:
+                  - generic [ref=e636]:
+                    - text: Bvl User
+                    - generic [ref=e637]: 
+                - cell "03/19/2026 1:16 PM" [ref=e638]:
+                  - generic [ref=e639]: 03/19/2026 1:16 PM
+                - cell "$0.00" [ref=e640]:
+                  - generic [ref=e642]: $0.00
+            - rowgroup [ref=e643]:
+              - row "None Michael Porter Quote Unassigned michael.porter@example.com (555) 345-6789 None Bvl User 03/19/2026 1:15 PM $0.00" [ref=e644] [cursor=pointer]:
+                - cell "None" [ref=e645]:
+                  - generic [ref=e646]: None
+                - cell "Michael Porter" [ref=e647]:
+                  - generic [ref=e648]: Michael Porter
+                - cell "Quote" [ref=e649]
+                - cell "Unassigned" [ref=e650]:
+                  - generic [ref=e651]: Unassigned
+                - cell "michael.porter@example.com" [ref=e652]:
+                  - generic [ref=e653]: michael.porter@example.com
+                - cell "(555) 345-6789" [ref=e654]:
+                  - generic [ref=e655]: (555) 345-6789
+                - cell "None" [ref=e656]:
+                  - generic [ref=e657]: None
+                - cell "Bvl User" [ref=e658]:
+                  - generic [ref=e659]:
+                    - text: Bvl User
+                    - generic [ref=e660]: 
+                - cell "03/19/2026 1:15 PM" [ref=e661]:
+                  - generic [ref=e662]: 03/19/2026 1:15 PM
+                - cell "$0.00" [ref=e663]:
+                  - generic [ref=e665]: $0.00
+            - rowgroup [ref=e666]:
+              - row "None Robert Johnson Quote Unassigned robert.johnson@example.com (555) 123-4567 None Bvl User 03/19/2026 12:55 PM $0.00" [ref=e667] [cursor=pointer]:
+                - cell "None" [ref=e668]:
+                  - generic [ref=e669]: None
+                - cell "Robert Johnson" [ref=e670]:
+                  - generic [ref=e671]: Robert Johnson
+                - cell "Quote" [ref=e672]
+                - cell "Unassigned" [ref=e673]:
+                  - generic [ref=e674]: Unassigned
+                - cell "robert.johnson@example.com" [ref=e675]:
+                  - generic [ref=e676]: robert.johnson@example.com
+                - cell "(555) 123-4567" [ref=e677]:
+                  - generic [ref=e678]: (555) 123-4567
+                - cell "None" [ref=e679]:
+                  - generic [ref=e680]: None
+                - cell "Bvl User" [ref=e681]:
+                  - generic [ref=e682]:
+                    - text: Bvl User
+                    - generic [ref=e683]: 
+                - cell "03/19/2026 12:55 PM" [ref=e684]:
+                  - generic [ref=e685]: 03/19/2026 12:55 PM
+                - cell "$0.00" [ref=e686]:
+                  - generic [ref=e688]: $0.00
+            - rowgroup [ref=e689]:
+              - row "None Michael Porter Quote Unassigned michael.porter@example.com (555) 345-6789 None Bvl User 03/19/2026 12:54 PM $0.00" [ref=e690] [cursor=pointer]:
+                - cell "None" [ref=e691]:
+                  - generic [ref=e692]: None
+                - cell "Michael Porter" [ref=e693]:
+                  - generic [ref=e694]: Michael Porter
+                - cell "Quote" [ref=e695]
+                - cell "Unassigned" [ref=e696]:
+                  - generic [ref=e697]: Unassigned
+                - cell "michael.porter@example.com" [ref=e698]:
+                  - generic [ref=e699]: michael.porter@example.com
+                - cell "(555) 345-6789" [ref=e700]:
+                  - generic [ref=e701]: (555) 345-6789
+                - cell "None" [ref=e702]:
+                  - generic [ref=e703]: None
+                - cell "Bvl User" [ref=e704]:
+                  - generic [ref=e705]:
+                    - text: Bvl User
+                    - generic [ref=e706]: 
+                - cell "03/19/2026 12:54 PM" [ref=e707]:
+                  - generic [ref=e708]: 03/19/2026 12:54 PM
+                - cell "$0.00" [ref=e709]:
+                  - generic [ref=e711]: $0.00
+            - rowgroup [ref=e712]:
+              - row "9875 William henry In Storage Unassigned bhuvana.ramesh@braveryinfotech.com (456) 709-8256 None Bvl User 03/19/2026 11:33 AM $2,040.00" [ref=e713] [cursor=pointer]:
+                - cell "9875" [ref=e714]:
+                  - generic [ref=e715]: "9875"
+                - cell "William henry" [ref=e716]:
+                  - generic [ref=e717]: William henry
+                - cell "In Storage" [ref=e718]
+                - cell "Unassigned" [ref=e719]:
+                  - generic [ref=e720]: Unassigned
+                - cell "bhuvana.ramesh@braveryinfotech.com" [ref=e721]:
+                  - generic [ref=e722]: bhuvana.ramesh@braveryinfotech.com
+                - cell "(456) 709-8256" [ref=e723]:
+                  - generic [ref=e724]: (456) 709-8256
+                - cell "None" [ref=e725]:
+                  - generic [ref=e726]: None
+                - cell "Bvl User" [ref=e727]:
+                  - generic [ref=e728]:
+                    - text: Bvl User
+                    - generic [ref=e729]: 
+                - cell "03/19/2026 11:33 AM" [ref=e730]:
+                  - generic [ref=e731]: 03/19/2026 11:33 AM
+                - cell "$2,040.00" [ref=e732]:
+                  - generic [ref=e734]: $2,040.00
+            - rowgroup [ref=e736]:
+              - row "None Michael Porter Quote Unassigned michael.porter@example.com (555) 345-6789 None Bvl User 03/19/2026 8:45 AM $0.00" [ref=e737] [cursor=pointer]:
+                - cell "None" [ref=e738]:
+                  - generic [ref=e739]: None
+                - cell "Michael Porter" [ref=e740]:
+                  - generic [ref=e741]: Michael Porter
+                - cell "Quote" [ref=e742]
+                - cell "Unassigned" [ref=e743]:
+                  - generic [ref=e744]: Unassigned
+                - cell "michael.porter@example.com" [ref=e745]:
+                  - generic [ref=e746]: michael.porter@example.com
+                - cell "(555) 345-6789" [ref=e747]:
+                  - generic [ref=e748]: (555) 345-6789
+                - cell "None" [ref=e749]:
+                  - generic [ref=e750]: None
+                - cell "Bvl User" [ref=e751]:
+                  - generic [ref=e752]:
+                    - text: Bvl User
+                    - generic [ref=e753]: 
+                - cell "03/19/2026 8:45 AM" [ref=e754]:
+                  - generic [ref=e755]: 03/19/2026 8:45 AM
+                - cell "$0.00" [ref=e756]:
+                  - generic [ref=e758]: $0.00
+```

@@ -1,0 +1,174 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - text: 
+    - navigation [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - text: 
+          - listitem [ref=e12]:
+            - link " Orders" [ref=e13] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e15]:
+                - generic [ref=e16]: 
+                - text: Orders
+          - listitem [ref=e17]:
+            - link " Customers" [ref=e18] [cursor=pointer]:
+              - /url: "#/app/customers"
+              - generic [ref=e20]:
+                - generic [ref=e21]: 
+                - text: Customers
+          - listitem [ref=e22]:
+            - link " Rates" [ref=e23] [cursor=pointer]:
+              - /url: "#/app/tariff/0/active"
+              - generic [ref=e25]:
+                - generic [ref=e26]: 
+                - text: Rates
+          - listitem [ref=e27]:
+            - link " My Schedule" [ref=e28] [cursor=pointer]:
+              - /url: "#/app/user-calendar"
+              - generic [ref=e30]:
+                - generic [ref=e31]: 
+                - text: My Schedule
+          - listitem [ref=e32]:
+            - link " All Documents" [ref=e33] [cursor=pointer]:
+              - /url: "#/app/documents"
+              - generic [ref=e35]:
+                - generic [ref=e36]: 
+                - text: All Documents
+          - listitem [ref=e37]:
+            - link " Reports" [ref=e38] [cursor=pointer]:
+              - /url: "#/app/reports"
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: Reports
+          - listitem [ref=e42]:
+            - link " Settings" [ref=e43] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e45]:
+                - generic [ref=e46]: 
+                - text: Settings
+  - generic [ref=e47]:
+    - banner [ref=e49]:
+      - generic [ref=e50]:
+        - text:  
+        - generic:
+          - link "Quote2Cash " [ref=e51] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Quote2Cash
+            - generic [ref=e53]: 
+          - link "Q2C " [ref=e54] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Q2C
+            - generic [ref=e56]: 
+        - text:   
+      - generic [ref=e57]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - button [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: 
+          - listitem [ref=e63]:
+            - generic [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+              - text: 
+          - listitem [ref=e66]:
+            - link [ref=e67] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e68]: 
+              - text: Create
+        - listitem [ref=e73]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e75]: 
+            - text: Alerts
+          - text:  
+        - listitem [ref=e80]:
+          - link [ref=e81] [cursor=pointer]:
+            - /url: "#/app/jobReminder?type=task"
+            - generic [ref=e82]: 
+            - text: Task
+        - text:  
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - generic [ref=e85] [cursor=pointer]: Bvl
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - generic [ref=e93] [cursor=pointer]: 
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - 'heading "Order Ref #: 100" [level=3] [ref=e96]'
+            - heading "John Doe" [level=4] [ref=e97]
+            - button "Linking" [ref=e99] [cursor=pointer]: Linking
+            - heading [level=5]
+          - generic [ref=e102]:
+            - 'heading "Grand Total: $12.60" [level=3] [ref=e103]'
+            - heading "Budd Van Lines" [level=5] [ref=e104]
+            - button "View Summary" [ref=e105] [cursor=pointer]
+      - tablist [ref=e107]:
+        - generic [ref=e111]:
+          - tab "Status (In Storage) " [ref=e112]:
+            - heading "Status (In Storage) " [level=4] [ref=e113]:
+              - button "Status (In Storage) " [ref=e114] [cursor=pointer]:
+                - generic [ref=e116]:
+                  - text: Status (In Storage)
+                  - generic [ref=e117]: 
+          - text:          
+        - generic [ref=e121]:
+          - tab "Dates " [ref=e122]:
+            - heading "Dates " [level=4] [ref=e123]:
+              - button "Dates " [ref=e124] [cursor=pointer]:
+                - generic [ref=e126]:
+                  - text: Dates
+                  - generic [ref=e127]: 
+          - text:                                                                  +
+        - generic [ref=e132]:
+          - tab "Customer Details " [ref=e133]:
+            - heading "Customer Details " [level=4] [ref=e134]:
+              - button "Customer Details " [ref=e135] [cursor=pointer]:
+                - generic [ref=e137]:
+                  - text: Customer Details
+                  - generic [ref=e138]: 
+          - text: "* * * * * *  * * * * * * * * * * * * * * * Post Card Recommendation from a friend Web Marketing Heard on \"New Jersey 101.5\" Moved with Budd in the past Account Survey       "
+        - text:  
+        - generic [ref=e142]:
+          - tab "Inventory Details " [ref=e143]:
+            - heading "Inventory Details " [level=4] [ref=e144]:
+              - button "Inventory Details " [ref=e145] [cursor=pointer]:
+                - generic [ref=e147]:
+                  - text: Inventory Details
+                  - generic [ref=e148]: 
+          - text: + +
+        - tab "Storage Billing (100)   $12.60 Cancelled Active" [ref=e153]:
+          - heading "Storage Billing (100)   $12.60 Cancelled Active" [level=4] [ref=e154]:
+            - button "Storage Billing (100)   $12.60 Cancelled Active" [ref=e155] [cursor=pointer]:
+              - generic [ref=e157]:
+                - generic [ref=e158]: Storage Billing (100)
+                - generic [ref=e159]: 
+                - generic [ref=e160]:
+                  - generic [ref=e161]: 
+                  - text: ✏  + ✏ 
+                - generic [ref=e162]: $12.60
+                - paragraph [ref=e164]: Cancelled
+                - generic [ref=e166]: 
+                - generic [ref=e167]:
+                  - generic [ref=e168]: 
+                  - text: Active
+                - text: 
+        - generic [ref=e172]:
+          - tab "Notes " [ref=e173]:
+            - heading "Notes " [level=4] [ref=e174]:
+              - button "Notes " [ref=e175] [cursor=pointer]:
+                - generic [ref=e177]:
+                  - text: Notes
+                  - generic [ref=e178]: 
+          - text: +
+        - generic [ref=e183]:
+          - button "Save" [ref=e184] [cursor=pointer]
+          - button "Documents" [ref=e185] [cursor=pointer]
+          - button "Revenue" [ref=e186] [cursor=pointer]
+          - button "Commission" [disabled]
+          - button "Options" [ref=e188] [cursor=pointer]: Options
+        - text: + − + − + − + − + − + − + + − + − + − + − + − + − + + − + − + − + − + − + − +
+```

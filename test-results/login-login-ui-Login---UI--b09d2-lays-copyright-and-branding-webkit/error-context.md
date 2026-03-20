@@ -1,0 +1,82 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - img [ref=e8]
+    - generic [ref=e9]:
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - heading "Welcome to Quote2Cash" [level=3] [ref=e14]
+          - paragraph [ref=e15]: Please enter your username and password to log in.
+        - generic [ref=e16]:
+          - heading "Username *" [level=5] [ref=e17]:
+            - text: Username
+            - generic [ref=e18]: "*"
+          - textbox "Enter a valid username" [ref=e19]
+        - generic [ref=e20]:
+          - heading "Password *" [level=5] [ref=e21]:
+            - text: Password
+            - generic [ref=e22]: "*"
+          - textbox "Enter a valid password" [ref=e23]
+          - generic [ref=e24] [cursor=pointer]: 
+        - generic [ref=e25]:
+          - generic [ref=e26]: Forgot
+          - generic [ref=e27] [cursor=pointer]: username
+          - generic [ref=e28]: (or)
+          - generic [ref=e29] [cursor=pointer]: password
+        - button "Login" [ref=e30] [cursor=pointer]:  Login
+        - heading "2026 © Quote2Cash" [level=6] [ref=e32]
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e39]:
+            - heading "Pricing Calculation & Controls" [level=4] [ref=e40]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+          - generic [ref=e44]:
+            - heading "Rate Management" [level=4] [ref=e45]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+          - generic [ref=e49]:
+            - heading "Document Support & Estimation" [level=4] [ref=e50]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+          - generic [ref=e54]:
+            - heading "Integrations & Downloads" [level=4] [ref=e55]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+        - generic [ref=e56]:
+          - generic [ref=e60]:
+            - heading "Commission Settlement" [level=4] [ref=e61]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+          - generic [ref=e65]:
+            - heading "Sales Lead Management" [level=4] [ref=e66]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+          - generic [ref=e70]:
+            - heading "E-Signature" [level=4] [ref=e71]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+          - generic [ref=e75]:
+            - heading "Reporting" [level=4] [ref=e76]
+            - link:
+              - /url: "#"
+            - generic:
+              - img
+  - text: "* *  "
+```

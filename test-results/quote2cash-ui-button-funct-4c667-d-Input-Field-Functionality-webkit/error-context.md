@@ -1,0 +1,136 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - text: 
+    - navigation [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - text: 
+          - listitem [ref=e12]:
+            - link " Orders" [ref=e13] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e15]:
+                - generic [ref=e16]: 
+                - text: Orders
+          - listitem [ref=e17]:
+            - link " Customers" [ref=e18] [cursor=pointer]:
+              - /url: "#/app/customers"
+              - generic [ref=e20]:
+                - generic [ref=e21]: 
+                - text: Customers
+          - listitem [ref=e22]:
+            - link " Rates" [ref=e23] [cursor=pointer]:
+              - /url: "#/app/tariff/0/active"
+              - generic [ref=e25]:
+                - generic [ref=e26]: 
+                - text: Rates
+          - listitem [ref=e27]:
+            - link " My Schedule" [ref=e28] [cursor=pointer]:
+              - /url: "#/app/user-calendar"
+              - generic [ref=e30]:
+                - generic [ref=e31]: 
+                - text: My Schedule
+          - listitem [ref=e32]:
+            - link " All Documents" [ref=e33] [cursor=pointer]:
+              - /url: "#/app/documents"
+              - generic [ref=e35]:
+                - generic [ref=e36]: 
+                - text: All Documents
+          - listitem [ref=e37]:
+            - link " Reports" [ref=e38] [cursor=pointer]:
+              - /url: "#/app/reports"
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: Reports
+          - listitem [ref=e42]:
+            - link " Settings" [ref=e43] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e45]:
+                - generic [ref=e46]: 
+                - text: Settings
+  - generic [ref=e47]:
+    - banner [ref=e49]:
+      - generic [ref=e50]:
+        - text:  
+        - generic:
+          - link "Quote2Cash " [ref=e51] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Quote2Cash
+            - generic [ref=e53]: 
+          - link "Q2C " [ref=e54] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Q2C
+            - generic [ref=e56]: 
+        - text:   
+      - generic [ref=e57]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - button [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: 
+          - listitem [ref=e63]:
+            - generic [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+              - text: 
+          - listitem [ref=e66]:
+            - link [expanded] [active] [ref=e67] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e68]: 
+              - text: Create
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - link [ref=e71] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - text: New Order
+              - listitem [ref=e72]:
+                - link [ref=e73] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - text: New Task
+        - listitem [ref=e78]:
+          - link [ref=e79] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e80]: 
+            - text: Alerts
+        - listitem [ref=e85]:
+          - link [ref=e86] [cursor=pointer]:
+            - /url: "#/app/jobReminder?type=task"
+            - generic [ref=e87]: 
+            - text: Task
+        - text:  
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - generic [ref=e90] [cursor=pointer]: Bvl
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - list [ref=e95]:
+          - listitem [ref=e96]:
+            - link " Home" [ref=e97] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e98]: 
+              - text: Home
+          - listitem [ref=e99]: / Orders
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e109]:
+              - button " Search ..." [ref=e112] [cursor=pointer]:
+                - generic [ref=e113]: 
+                - text: Search ...
+              - text: 
+            - generic [ref=e118]:
+              - generic [ref=e120]: $0.00
+              - generic [ref=e122]: Estimated Total
+          - generic [ref=e123]:
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - link "Open" [ref=e127] [cursor=pointer]:
+                  - /url: ""
+              - listitem [ref=e128]:
+                - link "Closed" [ref=e129] [cursor=pointer]:
+                  - /url: ""
+              - generic [ref=e130]: "Total Orders:"
+            - text: ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+      - generic [ref=e134]:
+        - img [ref=e136]
+        - heading "Loading . . . ." [level=4] [ref=e152]
+```

@@ -106,7 +106,7 @@
             - text: 
           - generic [ref=e108]:
             - generic [ref=e110] [cursor=pointer]:
-              - generic [ref=e111]: $1,142,127.19
+              - generic [ref=e111]: $4,240,827.19
               - generic [ref=e113]: Quote
             - generic [ref=e115] [cursor=pointer]:
               - generic [ref=e116]: $8,065.80
@@ -127,7 +127,7 @@
               - generic [ref=e141]: $0.00
               - generic [ref=e143]: Booked
           - generic [ref=e146]:
-            - generic [ref=e148]: $1,343,441.36
+            - generic [ref=e148]: $4,442,141.36
             - generic [ref=e150]: Estimated Total
         - generic [ref=e151]:
           - list [ref=e153]:
@@ -221,7 +221,7 @@
                 - cell "$2,970.00" [ref=e240]:
                   - generic [ref=e242]: $2,970.00
             - rowgroup [ref=e243]:
-              - row "317 John Doe Moving Company Quote Unassigned john.doe@movingcompany.com (555) 123-4567 03/16/2026 Michael 03/16/2026 3:41 PM $3,570.00" [ref=e244] [cursor=pointer]:
+              - row "317 John Doe Moving Company Quote Unassigned john.doe@movingcompany.com (555) 123-4567 03/16/2026 Michael 03/16/2026 3:41 PM $0.00" [ref=e244] [cursor=pointer]:
                 - cell "317" [ref=e245]:
                   - generic [ref=e246]: "317"
                 - cell "John Doe Moving Company" [ref=e247]:
@@ -241,8 +241,8 @@
                     - generic [ref=e260]: 
                 - cell "03/16/2026 3:41 PM" [ref=e261]:
                   - generic [ref=e262]: 03/16/2026 3:41 PM
-                - cell "$3,570.00" [ref=e263]:
-                  - generic [ref=e265]: $3,570.00
+                - cell "$0.00" [ref=e263]:
+                  - generic [ref=e265]: $0.00
             - rowgroup [ref=e266]:
               - row "316 Steven Quote Unassigned avinash@quote2cash.com (659) 874-1256 03/16/2026 Michael 03/16/2026 1:18 PM $193,974.10" [ref=e267] [cursor=pointer]:
                 - cell "316" [ref=e268]:

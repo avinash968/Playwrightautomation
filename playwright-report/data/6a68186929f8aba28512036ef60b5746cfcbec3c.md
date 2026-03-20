@@ -1,0 +1,527 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e8]:
+    - text: 
+    - navigation [ref=e9]:
+      - navigation [ref=e10]:
+        - list [ref=e11]:
+          - text: 
+          - listitem [ref=e12]:
+            - link " Orders" [ref=e13] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e15]:
+                - generic [ref=e16]: 
+                - text: Orders
+          - listitem [ref=e17]:
+            - link " Customers" [ref=e18] [cursor=pointer]:
+              - /url: "#/app/customers"
+              - generic [ref=e20]:
+                - generic [ref=e21]: 
+                - text: Customers
+          - listitem [ref=e22]:
+            - link " Rates" [active] [ref=e23] [cursor=pointer]:
+              - /url: "#/app/tariff/0/active"
+              - generic [ref=e25]:
+                - generic [ref=e26]: 
+                - text: Rates
+          - listitem [ref=e27]:
+            - link " My Schedule" [ref=e28] [cursor=pointer]:
+              - /url: "#/app/user-calendar"
+              - generic [ref=e30]:
+                - generic [ref=e31]: 
+                - text: My Schedule
+          - listitem [ref=e32]:
+            - link " All Documents" [ref=e33] [cursor=pointer]:
+              - /url: "#/app/documents"
+              - generic [ref=e35]:
+                - generic [ref=e36]: 
+                - text: All Documents
+          - listitem [ref=e37]:
+            - link " Reports" [ref=e38] [cursor=pointer]:
+              - /url: "#/app/reports"
+              - generic [ref=e40]:
+                - generic [ref=e41]: 
+                - text: Reports
+          - listitem [ref=e42]:
+            - link " Settings" [ref=e43] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e45]:
+                - generic [ref=e46]: 
+                - text: Settings
+  - generic [ref=e47]:
+    - banner [ref=e49]:
+      - generic [ref=e50]:
+        - text:  
+        - generic:
+          - link "Quote2Cash " [ref=e51] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Quote2Cash
+            - generic [ref=e53]: 
+          - link "Q2C " [ref=e54] [cursor=pointer]:
+            - /url: "#/app/jobboard"
+            - text: Q2C
+            - generic [ref=e56]: 
+        - text:   
+      - generic [ref=e57]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - button [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: 
+          - listitem [ref=e63]:
+            - generic [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]: 
+              - text: 
+          - listitem [ref=e66]:
+            - link [ref=e67] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e68]: 
+              - text: Create
+        - listitem [ref=e73]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e75]: 
+            - text: Alerts
+          - text:  
+        - listitem [ref=e80]:
+          - link [ref=e81] [cursor=pointer]:
+            - /url: "#/app/jobReminder?type=task"
+            - generic [ref=e82]: 
+            - text: Task
+        - text:  
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - generic [ref=e85] [cursor=pointer]: Bvl
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link " Home" [ref=e92] [cursor=pointer]:
+              - /url: "#/app/jobboard"
+              - generic [ref=e93]: 
+              - text: Home
+          - listitem [ref=e94]: / Rates
+        - generic [ref=e101]:
+          - heading "Rate Management" [level=3] [ref=e102]
+          - generic [ref=e103]:
+            - generic [ref=e107]:
+              - generic [ref=e108] [cursor=pointer]: 
+              - text: 
+              - textbox "Search Rates..." [ref=e109]
+            - generic [ref=e111]:
+              - generic [ref=e115]: In Use
+              - generic [ref=e119]: Not In Use
+              - generic [ref=e123]: Total Revenue
+          - generic [ref=e124]:
+            - list [ref=e127]:
+              - listitem [ref=e128]:
+                - link "Active" [ref=e129] [cursor=pointer]:
+                  - /url: ""
+              - listitem [ref=e130]:
+                - link "Inactive" [ref=e131] [cursor=pointer]:
+                  - /url: ""
+              - listitem [ref=e132]:
+                - link "Removed" [ref=e133] [cursor=pointer]:
+                  - /url: ""
+            - table [ref=e136]:
+              - rowgroup [ref=e137]:
+                - row "Rate Name Approved Date Approved By Rate Mode Open Orders Order Count Revenue" [ref=e138]:
+                  - columnheader "Rate Name" [ref=e139] [cursor=pointer]: Rate Name ▲
+                  - columnheader "Approved Date" [ref=e140] [cursor=pointer]: Approved Date ▲
+                  - columnheader "Approved By" [ref=e141] [cursor=pointer]: Approved By ▲
+                  - columnheader "Rate Mode" [ref=e142] [cursor=pointer]: Rate Mode ▲
+                  - columnheader "Open Orders" [ref=e143] [cursor=pointer]: Open Orders ▲
+                  - columnheader "Order Count" [ref=e144] [cursor=pointer]: Order Count ▲
+                  - columnheader "Revenue" [ref=e145] [cursor=pointer]: Revenue ▲
+              - rowgroup [ref=e146]:
+                - row "NJ Testing Local 01/21/2026 6:55 PM Bvl User In Use 1 1 $280.69" [ref=e147] [cursor=pointer]:
+                  - cell "NJ Testing Local" [ref=e148]:
+                    - generic [ref=e149]: NJ Testing Local
+                  - cell "01/21/2026 6:55 PM" [ref=e150]:
+                    - generic [ref=e151]: 01/21/2026 6:55 PM
+                  - cell "Bvl User" [ref=e152]:
+                    - generic [ref=e153]: Bvl User
+                  - cell "In Use" [ref=e154]:
+                    - generic [ref=e155]: In Use
+                  - cell "1" [ref=e156]:
+                    - generic [ref=e157]: "1"
+                  - cell "1" [ref=e158]:
+                    - generic [ref=e159]: "1"
+                  - cell "$280.69" [ref=e160]:
+                    - generic [ref=e161]: $280.69
+              - rowgroup [ref=e162]:
+                - row "Clone of NEW BGRS Latest123 11/28/2025 4:30 PM Bvl User Not In Use 0 0 $0.00" [ref=e163] [cursor=pointer]:
+                  - cell "Clone of NEW BGRS Latest123" [ref=e164]:
+                    - generic [ref=e165]: Clone of NEW BGRS Latest123
+                  - cell "11/28/2025 4:30 PM" [ref=e166]:
+                    - generic [ref=e167]: 11/28/2025 4:30 PM
+                  - cell "Bvl User" [ref=e168]:
+                    - generic [ref=e169]: Bvl User
+                  - cell "Not In Use" [ref=e170]
+                  - cell "0" [ref=e171]:
+                    - generic [ref=e172]: "0"
+                  - cell "0" [ref=e173]:
+                    - generic [ref=e174]: "0"
+                  - cell "$0.00" [ref=e175]:
+                    - generic [ref=e176]: $0.00
+              - rowgroup [ref=e177]:
+                - 'row "Clone of GSA Version #4 11/26/2025 8:33 PM Bvl User Not In Use 0 0 $0.00" [ref=e178] [cursor=pointer]':
+                  - 'cell "Clone of GSA Version #4" [ref=e179]':
+                    - generic [ref=e180]: "Clone of GSA Version #4"
+                  - cell "11/26/2025 8:33 PM" [ref=e181]:
+                    - generic [ref=e182]: 11/26/2025 8:33 PM
+                  - cell "Bvl User" [ref=e183]:
+                    - generic [ref=e184]: Bvl User
+                  - cell "Not In Use" [ref=e185]
+                  - cell "0" [ref=e186]:
+                    - generic [ref=e187]: "0"
+                  - cell "0" [ref=e188]:
+                    - generic [ref=e189]: "0"
+                  - cell "$0.00" [ref=e190]:
+                    - generic [ref=e191]: $0.00
+              - rowgroup [ref=e192]:
+                - row "MMI Updated rate 0 11/07/2025 2:37 PM Bvl User Not In Use 1 1 $21,571.90" [ref=e193] [cursor=pointer]:
+                  - cell "MMI Updated rate 0" [ref=e194]:
+                    - generic [ref=e195]: MMI Updated rate 0
+                  - cell "11/07/2025 2:37 PM" [ref=e196]:
+                    - generic [ref=e197]: 11/07/2025 2:37 PM
+                  - cell "Bvl User" [ref=e198]:
+                    - generic [ref=e199]: Bvl User
+                  - cell "Not In Use" [ref=e200]
+                  - cell "1" [ref=e201]:
+                    - generic [ref=e202]: "1"
+                  - cell "1" [ref=e203]:
+                    - generic [ref=e204]: "1"
+                  - cell "$21,571.90" [ref=e205]:
+                    - generic [ref=e206]: $21,571.90
+              - rowgroup [ref=e207]:
+                - 'row "GSA Version #4 09/18/2025 3:21 PM Maggie Kante Not In Use 6 8 $291,749.48" [ref=e208] [cursor=pointer]':
+                  - 'cell "GSA Version #4" [ref=e209]':
+                    - generic [ref=e210]: "GSA Version #4"
+                  - cell "09/18/2025 3:21 PM" [ref=e211]:
+                    - generic [ref=e212]: 09/18/2025 3:21 PM
+                  - cell "Maggie Kante" [ref=e213]:
+                    - generic [ref=e214]: Maggie Kante
+                  - cell "Not In Use" [ref=e215]
+                  - cell "6" [ref=e216]:
+                    - generic [ref=e217]: "6"
+                  - cell "8" [ref=e218]:
+                    - generic [ref=e219]: "8"
+                  - cell "$291,749.48" [ref=e220]:
+                    - generic [ref=e221]: $291,749.48
+              - rowgroup [ref=e222]:
+                - row "Lexicon - 2026 08/25/2025 11:49 AM Bvl User Not In Use 4 4 $120,081.89" [ref=e223] [cursor=pointer]:
+                  - cell "Lexicon - 2026" [ref=e224]:
+                    - generic [ref=e225]: Lexicon - 2026
+                  - cell "08/25/2025 11:49 AM" [ref=e226]:
+                    - generic [ref=e227]: 08/25/2025 11:49 AM
+                  - cell "Bvl User" [ref=e228]:
+                    - generic [ref=e229]: Bvl User
+                  - cell "Not In Use" [ref=e230]
+                  - cell "4" [ref=e231]:
+                    - generic [ref=e232]: "4"
+                  - cell "4" [ref=e233]:
+                    - generic [ref=e234]: "4"
+                  - cell "$120,081.89" [ref=e235]:
+                    - generic [ref=e236]: $120,081.89
+              - rowgroup [ref=e237]:
+                - row "CS Relo Tariff - Dev Env - 2024 07/16/2025 12:33 PM Bvl User Not In Use 0 0 $0.00" [ref=e238] [cursor=pointer]:
+                  - cell "CS Relo Tariff - Dev Env - 2024" [ref=e239]:
+                    - generic [ref=e240]: CS Relo Tariff - Dev Env - 2024
+                  - cell "07/16/2025 12:33 PM" [ref=e241]:
+                    - generic [ref=e242]: 07/16/2025 12:33 PM
+                  - cell "Bvl User" [ref=e243]:
+                    - generic [ref=e244]: Bvl User
+                  - cell "Not In Use" [ref=e245]
+                  - cell "0" [ref=e246]:
+                    - generic [ref=e247]: "0"
+                  - cell "0" [ref=e248]:
+                    - generic [ref=e249]: "0"
+                  - cell "$0.00" [ref=e250]:
+                    - generic [ref=e251]: $0.00
+              - rowgroup [ref=e252]:
+                - row "Lexicon BVL rate - 2026 07/07/2025 12:53 PM Email Agent Not In Use 1 1 $25,335.74" [ref=e253] [cursor=pointer]:
+                  - cell "Lexicon BVL rate - 2026" [ref=e254]:
+                    - generic [ref=e255]: Lexicon BVL rate - 2026
+                  - cell "07/07/2025 12:53 PM" [ref=e256]:
+                    - generic [ref=e257]: 07/07/2025 12:53 PM
+                  - cell "Email Agent" [ref=e258]:
+                    - generic [ref=e259]: Email Agent
+                  - cell "Not In Use" [ref=e260]
+                  - cell "1" [ref=e261]:
+                    - generic [ref=e262]: "1"
+                  - cell "1" [ref=e263]:
+                    - generic [ref=e264]: "1"
+                  - cell "$25,335.74" [ref=e265]:
+                    - generic [ref=e266]: $25,335.74
+              - rowgroup [ref=e267]:
+                - row "NEW BGRS Latest 07/04/2025 2:24 PM Jack Ben Not In Use 0 0 $0.00" [ref=e268] [cursor=pointer]:
+                  - cell "NEW BGRS Latest" [ref=e269]:
+                    - generic [ref=e270]: NEW BGRS Latest
+                  - cell "07/04/2025 2:24 PM" [ref=e271]:
+                    - generic [ref=e272]: 07/04/2025 2:24 PM
+                  - cell "Jack Ben" [ref=e273]:
+                    - generic [ref=e274]: Jack Ben
+                  - cell "Not In Use" [ref=e275]
+                  - cell "0" [ref=e276]:
+                    - generic [ref=e277]: "0"
+                  - cell "0" [ref=e278]:
+                    - generic [ref=e279]: "0"
+                  - cell "$0.00" [ref=e280]:
+                    - generic [ref=e281]: $0.00
+              - rowgroup [ref=e282]:
+                - row "Non Peak Version MDMS Rate - 2025 with seasonal rate Update for Accounts rates Non Peak Version MDMS 06/28/2025 3:42 PM Jack Ben Not In Use 2 2 $20,790.88" [ref=e283] [cursor=pointer]:
+                  - cell "Non Peak Version MDMS Rate - 2025 with seasonal rate Update for Accounts rates Non Peak Version MDMS" [ref=e284]:
+                    - generic [ref=e285]: Non Peak Version MDMS Rate - 2025 with seasonal rate Update for Accounts rates Non Peak Version MDMS
+                  - cell "06/28/2025 3:42 PM" [ref=e286]:
+                    - generic [ref=e287]: 06/28/2025 3:42 PM
+                  - cell "Jack Ben" [ref=e288]:
+                    - generic [ref=e289]: Jack Ben
+                  - cell "Not In Use" [ref=e290]
+                  - cell "2" [ref=e291]:
+                    - generic [ref=e292]: "2"
+                  - cell "2" [ref=e293]:
+                    - generic [ref=e294]: "2"
+                  - cell "$20,790.88" [ref=e295]:
+                    - generic [ref=e296]: $20,790.88
+              - rowgroup [ref=e297]:
+                - row "Clone of Clone of Cartus - 2024-001 06/24/2025 4:04 PM Email Agent Not In Use 1 1 $27,733.42" [ref=e298] [cursor=pointer]:
+                  - cell "Clone of Clone of Cartus - 2024-001" [ref=e299]:
+                    - generic [ref=e300]: Clone of Clone of Cartus - 2024-001
+                  - cell "06/24/2025 4:04 PM" [ref=e301]:
+                    - generic [ref=e302]: 06/24/2025 4:04 PM
+                  - cell "Email Agent" [ref=e303]:
+                    - generic [ref=e304]: Email Agent
+                  - cell "Not In Use" [ref=e305]
+                  - cell "1" [ref=e306]:
+                    - generic [ref=e307]: "1"
+                  - cell "1" [ref=e308]:
+                    - generic [ref=e309]: "1"
+                  - cell "$27,733.42" [ref=e310]:
+                    - generic [ref=e311]: $27,733.42
+              - rowgroup [ref=e312]:
+                - row "GSA Effective - 2024-001 06/24/2025 3:56 PM Email Agent In Use 2 2 $49,073.36" [ref=e313] [cursor=pointer]:
+                  - cell "GSA Effective - 2024-001" [ref=e314]:
+                    - generic [ref=e315]: GSA Effective - 2024-001
+                  - cell "06/24/2025 3:56 PM" [ref=e316]:
+                    - generic [ref=e317]: 06/24/2025 3:56 PM
+                  - cell "Email Agent" [ref=e318]:
+                    - generic [ref=e319]: Email Agent
+                  - cell "In Use" [ref=e320]:
+                    - generic [ref=e321]: In Use
+                  - cell "2" [ref=e322]:
+                    - generic [ref=e323]: "2"
+                  - cell "2" [ref=e324]:
+                    - generic [ref=e325]: "2"
+                  - cell "$49,073.36" [ref=e326]:
+                    - generic [ref=e327]: $49,073.36
+              - rowgroup [ref=e328]:
+                - row "2025 Rate - BGRS ->5000 06/04/2025 6:10 PM Email Agent In Use 133 134 $11,831,268.85" [ref=e329] [cursor=pointer]:
+                  - cell "2025 Rate - BGRS ->5000" [ref=e330]:
+                    - generic [ref=e331]: 2025 Rate - BGRS ->5000
+                  - cell "06/04/2025 6:10 PM" [ref=e332]:
+                    - generic [ref=e333]: 06/04/2025 6:10 PM
+                  - cell "Email Agent" [ref=e334]:
+                    - generic [ref=e335]: Email Agent
+                  - cell "In Use" [ref=e336]:
+                    - generic [ref=e337]: In Use
+                  - cell "133" [ref=e338]:
+                    - generic [ref=e339]: "133"
+                  - cell "134" [ref=e340]:
+                    - generic [ref=e341]: "134"
+                  - cell "$11,831,268.85" [ref=e342]:
+                    - generic [ref=e343]: $11,831,268.85
+              - rowgroup [ref=e344]:
+                - row "BVL 08 ICA - 2025 05/28/2025 12:35 PM Email Agent In Use 6 6 $131,167.77" [ref=e345] [cursor=pointer]:
+                  - cell "BVL 08 ICA - 2025" [ref=e346]:
+                    - generic [ref=e347]: BVL 08 ICA - 2025
+                  - cell "05/28/2025 12:35 PM" [ref=e348]:
+                    - generic [ref=e349]: 05/28/2025 12:35 PM
+                  - cell "Email Agent" [ref=e350]:
+                    - generic [ref=e351]: Email Agent
+                  - cell "In Use" [ref=e352]:
+                    - generic [ref=e353]: In Use
+                  - cell "6" [ref=e354]:
+                    - generic [ref=e355]: "6"
+                  - cell "6" [ref=e356]:
+                    - generic [ref=e357]: "6"
+                  - cell "$131,167.77" [ref=e358]:
+                    - generic [ref=e359]: $131,167.77
+              - rowgroup [ref=e360]:
+                - row "GSA500A – Effective 11.1.2024 05/14/2025 12:59 PM Email Agent In Use 21 22 $575,984.07" [ref=e361] [cursor=pointer]:
+                  - cell "GSA500A – Effective 11.1.2024" [ref=e362]:
+                    - generic [ref=e363]: GSA500A – Effective 11.1.2024
+                  - cell "05/14/2025 12:59 PM" [ref=e364]:
+                    - generic [ref=e365]: 05/14/2025 12:59 PM
+                  - cell "Email Agent" [ref=e366]:
+                    - generic [ref=e367]: Email Agent
+                  - cell "In Use" [ref=e368]:
+                    - generic [ref=e369]: In Use
+                  - cell "21" [ref=e370]:
+                    - generic [ref=e371]: "21"
+                  - cell "22" [ref=e372]:
+                    - generic [ref=e373]: "22"
+                  - cell "$575,984.07" [ref=e374]:
+                    - generic [ref=e375]: $575,984.07
+              - rowgroup [ref=e376]:
+                - row "Clone of GSA 500A - 2021 test 05/12/2025 11:39 AM Email Agent Not In Use 0 0 $0.00" [ref=e377] [cursor=pointer]:
+                  - cell "Clone of GSA 500A - 2021 test" [ref=e378]:
+                    - generic [ref=e379]: Clone of GSA 500A - 2021 test
+                  - cell "05/12/2025 11:39 AM" [ref=e380]:
+                    - generic [ref=e381]: 05/12/2025 11:39 AM
+                  - cell "Email Agent" [ref=e382]:
+                    - generic [ref=e383]: Email Agent
+                  - cell "Not In Use" [ref=e384]
+                  - cell "0" [ref=e385]:
+                    - generic [ref=e386]: "0"
+                  - cell "0" [ref=e387]:
+                    - generic [ref=e388]: "0"
+                  - cell "$0.00" [ref=e389]:
+                    - generic [ref=e390]: $0.00
+              - rowgroup [ref=e391]:
+                - row "Return GSA Rate - 2025 04/09/2025 1:05 PM Email Agent In Use 170 170 $2,207,311.16" [ref=e392] [cursor=pointer]:
+                  - cell "Return GSA Rate - 2025" [ref=e393]:
+                    - generic [ref=e394]: Return GSA Rate - 2025
+                  - cell "04/09/2025 1:05 PM" [ref=e395]:
+                    - generic [ref=e396]: 04/09/2025 1:05 PM
+                  - cell "Email Agent" [ref=e397]:
+                    - generic [ref=e398]: Email Agent
+                  - cell "In Use" [ref=e399]:
+                    - generic [ref=e400]: In Use
+                  - cell "170" [ref=e401]:
+                    - generic [ref=e402]: "170"
+                  - cell "170" [ref=e403]:
+                    - generic [ref=e404]: "170"
+                  - cell "$2,207,311.16" [ref=e405]:
+                    - generic [ref=e406]: $2,207,311.16
+              - rowgroup [ref=e407]:
+                - row "Return BGRS Tariff - 2024 04/08/2025 8:23 PM Email Agent Not In Use 1 1 $27,700.05" [ref=e408] [cursor=pointer]:
+                  - cell "Return BGRS Tariff - 2024" [ref=e409]:
+                    - generic [ref=e410]: Return BGRS Tariff - 2024
+                  - cell "04/08/2025 8:23 PM" [ref=e411]:
+                    - generic [ref=e412]: 04/08/2025 8:23 PM
+                  - cell "Email Agent" [ref=e413]:
+                    - generic [ref=e414]: Email Agent
+                  - cell "Not In Use" [ref=e415]
+                  - cell "1" [ref=e416]:
+                    - generic [ref=e417]: "1"
+                  - cell "1" [ref=e418]:
+                    - generic [ref=e419]: "1"
+                  - cell "$27,700.05" [ref=e420]:
+                    - generic [ref=e421]: $27,700.05
+              - rowgroup [ref=e422]:
+                - row "BGRS tEST rate - 2026 03/24/2025 12:29 PM Jack Ben In Use 8 8 $289,445.19" [ref=e423] [cursor=pointer]:
+                  - cell "BGRS tEST rate - 2026" [ref=e424]:
+                    - generic [ref=e425]: BGRS tEST rate - 2026
+                  - cell "03/24/2025 12:29 PM" [ref=e426]:
+                    - generic [ref=e427]: 03/24/2025 12:29 PM
+                  - cell "Jack Ben" [ref=e428]:
+                    - generic [ref=e429]: Jack Ben
+                  - cell "In Use" [ref=e430]:
+                    - generic [ref=e431]: In Use
+                  - cell "8" [ref=e432]:
+                    - generic [ref=e433]: "8"
+                  - cell "8" [ref=e434]:
+                    - generic [ref=e435]: "8"
+                  - cell "$289,445.19" [ref=e436]:
+                    - generic [ref=e437]: $289,445.19
+              - rowgroup [ref=e438]:
+                - row "Clone of Intra OHIO Revised - 02/20/2025 02/20/2025 3:48 PM Email Agent Not In Use 3 3 $25,866.14" [ref=e439] [cursor=pointer]:
+                  - cell "Clone of Intra OHIO Revised - 02/20/2025" [ref=e440]:
+                    - generic [ref=e441]: Clone of Intra OHIO Revised - 02/20/2025
+                  - cell "02/20/2025 3:48 PM" [ref=e442]:
+                    - generic [ref=e443]: 02/20/2025 3:48 PM
+                  - cell "Email Agent" [ref=e444]:
+                    - generic [ref=e445]: Email Agent
+                  - cell "Not In Use" [ref=e446]
+                  - cell "3" [ref=e447]:
+                    - generic [ref=e448]: "3"
+                  - cell "3" [ref=e449]:
+                    - generic [ref=e450]: "3"
+                  - cell "$25,866.14" [ref=e451]:
+                    - generic [ref=e452]: $25,866.14
+              - rowgroup [ref=e453]:
+                - row "Clone of NJ Local 02-06-2025 02/06/2025 11:54 AM Email Agent In Use 3 3 $11,340.80" [ref=e454] [cursor=pointer]:
+                  - cell "Clone of NJ Local 02-06-2025" [ref=e455]:
+                    - generic [ref=e456]: Clone of NJ Local 02-06-2025
+                  - cell "02/06/2025 11:54 AM" [ref=e457]:
+                    - generic [ref=e458]: 02/06/2025 11:54 AM
+                  - cell "Email Agent" [ref=e459]:
+                    - generic [ref=e460]: Email Agent
+                  - cell "In Use" [ref=e461]:
+                    - generic [ref=e462]: In Use
+                  - cell "3" [ref=e463]:
+                    - generic [ref=e464]: "3"
+                  - cell "3" [ref=e465]:
+                    - generic [ref=e466]: "3"
+                  - cell "$11,340.80" [ref=e467]:
+                    - generic [ref=e468]: $11,340.80
+              - rowgroup [ref=e469]:
+                - row "Aires 2025 (Non-Peak Rates) 02/04/2025 9:59 AM Email Agent In Use 8 8 $130,825.07" [ref=e470] [cursor=pointer]:
+                  - cell "Aires 2025 (Non-Peak Rates)" [ref=e471]:
+                    - generic [ref=e472]: Aires 2025 (Non-Peak Rates)
+                  - cell "02/04/2025 9:59 AM" [ref=e473]:
+                    - generic [ref=e474]: 02/04/2025 9:59 AM
+                  - cell "Email Agent" [ref=e475]:
+                    - generic [ref=e476]: Email Agent
+                  - cell "In Use" [ref=e477]:
+                    - generic [ref=e478]: In Use
+                  - cell "8" [ref=e479]:
+                    - generic [ref=e480]: "8"
+                  - cell "8" [ref=e481]:
+                    - generic [ref=e482]: "8"
+                  - cell "$130,825.07" [ref=e483]:
+                    - generic [ref=e484]: $130,825.07
+              - rowgroup [ref=e485]:
+                - row "Aires 2025 01/07/2025 7:36 PM Email Agent In Use 14 14 $441,107.59" [ref=e486] [cursor=pointer]:
+                  - cell "Aires 2025" [ref=e487]:
+                    - generic [ref=e488]: Aires 2025
+                  - cell "01/07/2025 7:36 PM" [ref=e489]:
+                    - generic [ref=e490]: 01/07/2025 7:36 PM
+                  - cell "Email Agent" [ref=e491]:
+                    - generic [ref=e492]: Email Agent
+                  - cell "In Use" [ref=e493]:
+                    - generic [ref=e494]: In Use
+                  - cell "14" [ref=e495]:
+                    - generic [ref=e496]: "14"
+                  - cell "14" [ref=e497]:
+                    - generic [ref=e498]: "14"
+                  - cell "$441,107.59" [ref=e499]:
+                    - generic [ref=e500]: $441,107.59
+              - rowgroup [ref=e501]:
+                - row "Cartus - 2024 (Revised) 09/18/2024 11:51 AM Email Agent In Use 10 10 $197,616.30" [ref=e502] [cursor=pointer]:
+                  - cell "Cartus - 2024 (Revised)" [ref=e503]:
+                    - generic [ref=e504]: Cartus - 2024 (Revised)
+                  - cell "09/18/2024 11:51 AM" [ref=e505]:
+                    - generic [ref=e506]: 09/18/2024 11:51 AM
+                  - cell "Email Agent" [ref=e507]:
+                    - generic [ref=e508]: Email Agent
+                  - cell "In Use" [ref=e509]:
+                    - generic [ref=e510]: In Use
+                  - cell "10" [ref=e511]:
+                    - generic [ref=e512]: "10"
+                  - cell "10" [ref=e513]:
+                    - generic [ref=e514]: "10"
+                  - cell "$197,616.30" [ref=e515]:
+                    - generic [ref=e516]: $197,616.30
+              - rowgroup [ref=e517]:
+                - row "Cartus - 2024 08/29/2024 12:29 PM Email Agent In Use 13 14 $415,162.12" [ref=e518] [cursor=pointer]:
+                  - cell "Cartus - 2024" [ref=e519]:
+                    - generic [ref=e520]: Cartus - 2024
+                  - cell "08/29/2024 12:29 PM" [ref=e521]:
+                    - generic [ref=e522]: 08/29/2024 12:29 PM
+                  - cell "Email Agent" [ref=e523]:
+                    - generic [ref=e524]: Email Agent
+                  - cell "In Use" [ref=e525]:
+                    - generic [ref=e526]: In Use
+                  - cell "13" [ref=e527]:
+                    - generic [ref=e528]: "13"
+                  - cell "14" [ref=e529]:
+                    - generic [ref=e530]: "14"
+                  - cell "$415,162.12" [ref=e531]:
+                    - generic [ref=e532]: $415,162.12
+      - generic [ref=e534]:
+        - img [ref=e536]
+        - heading "Loading . . . ." [level=4] [ref=e546]
+```
