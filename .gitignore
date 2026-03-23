@@ -6,3 +6,9 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+gmail-credentials.json
+gmail-tokens.json
+get-gmail-token.js
+exchange-code.js
+send-gmail-mcp-test.js
