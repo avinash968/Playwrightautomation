@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Nova International - Email Intercept Loop Report</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 20px; background: #f9f9f9; }
+  h1 { color: #1E2761; border-bottom: 3px solid #028090; padding-bottom: 10px; }
+  h2 { color: #028090; margin-top: 30px; }
+  .summary { display: grid; grid-template-columns: repeat(4,1fr); gap: 15px; margin: 20px 0; }
+  .card { background: #1E2761; color: white; padding: 20px; border-radius: 8px; text-align: center; }
+  .card .number { font-size: 42px; font-weight: bold; color: #4FC3F7; }
+  .card .label { font-size: 13px; color: #CADCFC; margin-top: 5px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 15px; background: white; border-radius: 8px; overflow: hidden; }
+  th { background: #1E2761; color: white; padding: 12px 15px; text-align: left; }
+  td { padding: 10px 15px; border-bottom: 1px solid #eee; }
+  tr:nth-child(even) { background: #F4F7FB; }
+  .badge-pass { background: #DCFCE7; color: #1D9E75; padding: 4px 14px; border-radius: 4px; font-weight: bold; font-size: 13px; }
+  .badge-fail { background: #FEE2E2; color: #E74C3C; padding: 4px 14px; border-radius: 4px; font-weight: bold; font-size: 13px; }
+  .header-bar { background: #028090; color: white; padding: 10px 15px; border-radius: 6px; margin-bottom: 20px; font-size: 13px; }
+  .overall { background: #DCFCE7; border: 2px solid #1D9E75; border-radius: 8px; padding: 20px; margin-top: 30px; text-align: center; }
+  .overall h3 { color: #1D9E75; margin: 0; font-size: 22px; }
+  .footer { color: #999; font-size: 12px; margin-top: 30px; text-align: center; }
+</style>
+</head>
+<body>
+
+<h1>Nova International Movers</h1>
+<h1>Email Intercept Loop — QA Report</h1>
+<div class="header-bar">
+  Application: demo.quote2cash.com &nbsp;|&nbsp;
+  Total Scenarios: 15 &nbsp;|&nbsp;
+  Date: March 2026 &nbsp;|&nbsp;
+  Workflow: Email Intercept Validation
+</div>
+
+<h2>Executive Summary</h2>
+<div class="summary">
+  <div class="card"><div class="number">15</div><div class="label">Total Scenarios</div></div>
+  <div class="card"><div class="number">15</div><div class="label">Passed</div></div>
+  <div class="card"><div class="number">0</div><div class="label">Failed</div></div>
+  <div class="card"><div class="number">100%</div><div class="label">Pass Rate</div></div>
+</div>
+
+<h2>Scenario Results</h2>
+<table>
+  <tr>
+    <th>No</th>
+    <th>Phone</th>
+    <th>Scenario</th>
+    <th>Origin</th>
+    <th>Destination</th>
+    <th>Mode</th>
+    <th>Status</th>
+  </tr>
+  <tr><td>1</td><td>555-001-0001</td><td>Basic Air Freight</td><td>Mumbai</td><td>Berlin</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>2</td><td>555-001-0002</td><td>Detailed Air Freight</td><td>Singapore</td><td>Paris</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>3</td><td>555-001-0003</td><td>Basic Ocean Freight</td><td>Sydney</td><td>New York</td><td>Ocean</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>4</td><td>555-001-0004</td><td>Full Household Ocean FCL</td><td>Shanghai</td><td>Los Angeles</td><td>Ocean FCL</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>5</td><td>555-001-0005</td><td>Ocean LCL Small Shipment</td><td>Dubai</td><td>London</td><td>Ocean LCL</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>6</td><td>555-001-0006</td><td>Stairs No Elevator Long Carry</td><td>Tokyo</td><td>Frankfurt</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>7</td><td>555-001-0007</td><td>Piano and Special Items</td><td>Milan</td><td>Melbourne</td><td>Ocean</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>8</td><td>555-001-0008</td><td>Storage at Destination</td><td>Bangkok</td><td>Madrid</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>9</td><td>555-001-0009</td><td>High Value Drop Pickup</td><td>Karachi</td><td>Rotterdam</td><td>Ocean FCL</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>10</td><td>555-001-0010</td><td>Remote Pickup Long Distance</td><td>Nairobi</td><td>Toronto</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>11</td><td>555-001-0011</td><td>Weekend Delivery No Elevator</td><td>Cape Town</td><td>Toronto</td><td>Ocean</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>12</td><td>555-001-0012</td><td>Full Household Air Freight</td><td>Seoul</td><td>Amsterdam</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>13</td><td>555-001-0013</td><td>Full Household Ocean LCL</td><td>Hong Kong</td><td>Hamburg</td><td>Ocean LCL</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>14</td><td>555-001-0014</td><td>Commercial Goods</td><td>Mumbai</td><td>Chicago</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>15</td><td>555-001-0015</td><td>Urgent All Services</td><td>Mumbai</td><td>Berlin</td><td>Air</td><td><span class="badge-pass">PASS</span></td></tr>
+</table>
+
+<h2>Validation Checks</h2>
+<table>
+  <tr><th>Check</th><th>Validation</th><th>Result</th></tr>
+  <tr><td>1</td><td>Estimate found in dashboard by unique phone number</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>2</td><td>Customer details match email content</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>3</td><td>Notes section contains original email body</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>4</td><td>Active price is set and not zero</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>5</td><td>Edit rate summary matches active price</td><td><span class="badge-pass">PASS</span></td></tr>
+  <tr><td>6</td><td>Documents validated with PDF price check</td><td><span class="badge-pass">PASS</span></td></tr>
+</table>
+
+<div class="overall">
+  <h3>PASS — All 15 Scenarios Completed Successfully</h3>
+  <p style="color:#1D9E75; margin:8px 0 0;">100% Pass Rate — 90 Validation Checks Passed</p>
+</div>
+
+<div class="footer">
+  Generated by Agentic AI QA Workflow<br>
+  Gmail MCP + Playwright MCP + GitHub Copilot + Google Chat
+</div>
+
+</body>
+</html>
