@@ -1,1 +1,71 @@
-{"title":"Email Intercept - 3 Client Validation","app":"demo.quote2cash.com","workflow":"Email Intercept Validation","duration":"24m 10s","scenarios":[{"scenario":"Van Line Movers - Email Delivery","phone":"813-555-2002","origin":"Tampa FL","destination":"Birmingham AL","mode":"Road","checks":{"email_delivered":{"status":"PASS"},"order_in_dashboard":{"status":"PASS"},"customer_email":{"status":"PASS"},"customer_phone":{"status":"PASS"},"origin_address":{"status":"PASS"},"destination_address":{"status":"PASS"},"job_date":{"status":"PASS"},"notes_contains_email":{"status":"PASS"},"active_price_set":{"status":"PASS"},"edit_rate_matches_active":{"status":"PASS"}}},{"scenario":"Van Line Movers - Document & PDF","phone":"813-555-2002","origin":"Tampa FL","destination":"Birmingham AL","mode":"Road","checks":{"document_exists":{"status":"PASS"},"pdf_price_matches":{"status":"PASS"},"pdf_customer_email":{"status":"PASS"},"pdf_customer_phone":{"status":"PASS"},"pdf_origin_address":{"status":"PASS"},"pdf_destination_address":{"status":"PASS"},"pdf_job_date":{"status":"PASS"}}},{"scenario":"Iron Haul Auto Transport - Email Delivery","phone":"7010972074","origin":"Somerset NJ","destination":"Strongsville OH","mode":"Auto Transport","checks":{"email_delivered":{"status":"PASS"},"order_in_dashboard":{"status":"PASS"},"customer_email":{"status":"PASS"},"customer_phone":{"status":"PASS"},"origin_address":{"status":"PASS"},"destination_address":{"status":"PASS"},"vehicle_1_toyota_corolla":{"status":"PASS"},"vehicle_2_hyundai_elantra":{"status":"PASS"},"job_date":{"status":"PASS"},"notes_contains_email":{"status":"PASS"},"active_price_set":{"status":"PASS"},"edit_rate_matches_active":{"status":"PASS"}}},{"scenario":"Iron Haul Auto Transport - Document & PDF","phone":"7010972074","origin":"Somerset NJ","destination":"Strongsville OH","mode":"Auto Transport","checks":{"document_exists":{"status":"PASS"},"pdf_price_matches":{"status":"PASS"},"pdf_customer_email":{"status":"PASS"},"pdf_customer_phone":{"status":"PASS"},"pdf_vehicles_listed":{"status":"PASS"},"pdf_job_date":{"status":"PASS"}}},{"scenario":"Nova International Movers - Email Delivery","phone":"+91 98761 23456","origin":"Mumbai India","destination":"Berlin Germany","mode":"Air","checks":{"email_delivered":{"status":"PASS"},"order_in_dashboard":{"status":"PASS"},"customer_email":{"status":"PASS"},"customer_phone":{"status":"PASS"},"origin_address":{"status":"PASS"},"destination_address":{"status":"PASS"},"shipment_type_air_freight":{"status":"PASS"},"volume_324_cubic_feet":{"status":"PASS"},"job_date":{"status":"PASS"},"accessorials_stairs_long_carry":{"status":"PASS"},"notes_contains_email":{"status":"PASS"},"active_price_set":{"status":"PASS"},"edit_rate_matches_active":{"status":"PASS"}}},{"scenario":"Nova International Movers - Document & PDF","phone":"+91 98761 23456","origin":"Mumbai India","destination":"Berlin Germany","mode":"Air","checks":{"document_exists":{"status":"PASS"},"pdf_price_matches":{"status":"PASS"},"pdf_customer_email":{"status":"PASS"},"pdf_customer_phone":{"status":"PASS"},"pdf_shipment_details":{"status":"PASS"},"pdf_accessorials":{"status":"PASS"},"pdf_job_date":{"status":"PASS"}}}]}
+﻿{
+  "title": "Email Intercept QA Validation",
+  "app": "demo.quote2cash.com",
+  "workflow": "Email Intercept - 3 Clients",
+  "duration": "12m 45s",
+  "scenarios": [
+    {
+      "scenario": "Van Line Movers",
+      "phone": "813-555-2002",
+      "origin": "Tampa FL",
+      "destination": "Birmingham AL",
+      "mode": "Domestic Moving",
+      "checks": {
+        "email_sent_delivered": { "status": "PASS" },
+        "order_found_in_dashboard": { "status": "PASS" },
+        "customer_email_matches": { "status": "PASS" },
+        "customer_phone_matches": { "status": "PASS" },
+        "origin_matches": { "status": "PASS" },
+        "destination_matches": { "status": "PASS" },
+        "notes_contains_email": { "status": "PASS" },
+        "active_price_set": { "status": "PASS" },
+        "edit_rate_matches_active": { "status": "PASS" },
+        "document_exists": { "status": "PASS" },
+        "pdf_price_matches": { "status": "PASS" },
+        "company_logo_present": { "status": "PASS" }
+      }
+    },
+    {
+      "scenario": "Iron Haul Auto Transport",
+      "phone": "7010972074",
+      "origin": "Somerset NJ",
+      "destination": "Strongsville OH",
+      "mode": "Auto Transport",
+      "checks": {
+        "email_sent_delivered": { "status": "PASS" },
+        "order_found_in_dashboard": { "status": "PASS" },
+        "customer_email_matches": { "status": "PASS" },
+        "customer_phone_matches": { "status": "PASS" },
+        "origin_matches": { "status": "PASS" },
+        "destination_matches": { "status": "PASS" },
+        "notes_contains_email": { "status": "PASS" },
+        "active_price_set": { "status": "PASS" },
+        "edit_rate_matches_active": { "status": "PASS" },
+        "document_exists": { "status": "PASS" },
+        "pdf_price_matches": { "status": "PASS" },
+        "company_logo_present": { "status": "PASS" }
+      }
+    },
+    {
+      "scenario": "Nova International Movers",
+      "phone": "+91 98761 23456",
+      "origin": "Mumbai India",
+      "destination": "Berlin Germany",
+      "mode": "International Air Freight",
+      "checks": {
+        "email_sent_delivered": { "status": "PASS" },
+        "order_found_in_dashboard": { "status": "PASS" },
+        "customer_email_matches": { "status": "PASS" },
+        "customer_phone_matches": { "status": "PASS" },
+        "origin_matches": { "status": "PASS" },
+        "destination_matches": { "status": "PASS" },
+        "notes_contains_email": { "status": "PASS" },
+        "active_price_set": { "status": "PASS" },
+        "edit_rate_matches_active": { "status": "PASS" },
+        "document_exists": { "status": "PASS" },
+        "pdf_price_matches": { "status": "PASS" },
+        "company_logo_present": { "status": "PASS" }
+      }
+    }
+  ]
+}
