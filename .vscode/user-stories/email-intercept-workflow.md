@@ -29,19 +29,19 @@ populates customer details, calculates pricing, and generates documents.
 
 ### Client 1 - Van Line Movers
 
-- URL: https://demo.quote2cash.com
+- URL: https://demo.quote2cash.app
 - Username: vanline_emailagent
 - Password: demo
 
 ### Client 2 - Iron Haul Auto Transport
 
-- URL: https://demo.quote2cash.com
+- URL: https://demo.quote2cash.app
 - Username: ironhaul_emailagent
 - Password: demo
 
 ### Client 3 - Nova International Movers
 
-- URL: https://demo.quote2cash.com
+- URL: https://demo.quote2cash.app
 - Username: international_emailagent
 - Password: demo
 

@@ -1,0 +1,1 @@
+Get-Content "C:\Playwright QA\specs\email-intercept-workflow-test-plan.md"
