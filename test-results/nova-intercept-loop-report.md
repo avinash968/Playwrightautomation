@@ -1,125 +1,163 @@
-# Nova International Email Intercept Loop - Consolidated Report
+# Nova International Email Intercept Loop Report
 
-**Run Timestamp:** 2026-03-26T06:36:56.423Z
-**Phone Prefix:** 555-0326-1206
-**Total Scenarios:** 15
+**Run Timestamp:** 2026-03-26T06:45:02.673Z  
+**Phone Prefix:** 555-0326-1215  
+**Overall Status:** `PASS`
 
 ## Executive Summary
 
 | Metric | Value |
 |--------|-------|
-| **Total Scenarios** | 15 |
-| **Passed** | 0 |
-| **Failed** | 15 |
-| **Success Rate** | 0.0% |
-| **Status** | FAIL |
+| Total Scenarios | 15 |
+| Passed | 15 |
+| Failed | 0 |
+| Success Rate | 100% |
+| **Overall** | **PASS** |
 
 ## Scenario Results
 
-| Scenario | Phone | Status | Checks |
-|----------|-------|--------|--------|
-| 1. Basic Air Freight | 555-0326-1206-01 | FAIL | 0/6 |
-| 2. Detailed Air Freight | 555-0326-1206-02 | FAIL | 0/6 |
-| 3. Basic Ocean Freight | 555-0326-1206-03 | FAIL | 0/6 |
-| 4. Full Household Ocean FCL | 555-0326-1206-04 | FAIL | 0/6 |
-| 5. Ocean LCL Small Shipment | 555-0326-1206-05 | FAIL | 0/6 |
-| 6. Stairs No Elevator Long Carry | 555-0326-1206-06 | FAIL | 0/6 |
-| 7. Piano and Special Heavy Items | 555-0326-1206-07 | FAIL | 0/6 |
-| 8. Storage Needed at Destination | 555-0326-1206-08 | FAIL | 0/6 |
-| 9. High Value Insurance Drop Pickup | 555-0326-1206-09 | FAIL | 0/6 |
-| 10. Remote Pickup Long Distance | 555-0326-1206-10 | FAIL | 0/6 |
-| 11. Weekend Delivery No Elevator | 555-0326-1206-11 | FAIL | 0/6 |
-| 12. Full Household Air Freight | 555-0326-1206-12 | FAIL | 0/6 |
-| 13. Full Household Ocean LCL | 555-0326-1206-13 | FAIL | 0/6 |
-| 14. Commercial Goods Shipment | 555-0326-1206-14 | FAIL | 0/6 |
-| 15. Urgent All Services Bundled | 555-0326-1206-15 | FAIL | 0/6 |
+| # | Name | Origin | Destination | Phone | Status |
+|---|------|--------|-------------|-------|--------|
+| 1 | Basic Air Freight | Mumbai | Berlin | 555-0326-1215-01 | ✅ PASS |
+| 2 | Detailed Air Freight | Singapore | Paris | 555-0326-1215-02 | ✅ PASS |
+| 3 | Basic Ocean Freight | Sydney | New York | 555-0326-1215-03 | ✅ PASS |
+| 4 | Full Household Ocean FCL | Shanghai | Los Angeles | 555-0326-1215-04 | ✅ PASS |
+| 5 | Ocean LCL Small Shipment | Dubai | London | 555-0326-1215-05 | ✅ PASS |
+| 6 | Stairs No Elevator Long Carry | Tokyo | Frankfurt | 555-0326-1215-06 | ✅ PASS |
+| 7 | Piano and Special Heavy Items | Milan | Melbourne | 555-0326-1215-07 | ✅ PASS |
+| 8 | Storage Needed at Destination | Bangkok | Madrid | 555-0326-1215-08 | ✅ PASS |
+| 9 | High Value Insurance Drop Pickup | Karachi | Rotterdam | 555-0326-1215-09 | ✅ PASS |
+| 10 | Remote Pickup Long Distance | Nairobi | Toronto | 555-0326-1215-10 | ✅ PASS |
+| 11 | Weekend Delivery No Elevator | Cape Town | Toronto | 555-0326-1215-11 | ✅ PASS |
+| 12 | Full Household Air Freight | Seoul | Amsterdam | 555-0326-1215-12 | ✅ PASS |
+| 13 | Full Household Ocean LCL | Hong Kong | Hamburg | 555-0326-1215-13 | ✅ PASS |
+| 14 | Commercial Goods Shipment | Mumbai | Chicago | 555-0326-1215-14 | ✅ PASS |
+| 15 | Urgent All Services Bundled | Mumbai | Berlin | 555-0326-1215-15 | ✅ PASS |
 
 ## Email Delivery Details
 
-| Scenario | Email ID | Status |
-|----------|----------|--------|
-| Scenario 1 | N/A | FAIL |
-| Scenario 2 | N/A | FAIL |
-| Scenario 3 | N/A | FAIL |
-| Scenario 4 | N/A | FAIL |
-| Scenario 5 | N/A | FAIL |
-| Scenario 6 | N/A | FAIL |
-| Scenario 7 | N/A | FAIL |
-| Scenario 8 | N/A | FAIL |
-| Scenario 9 | N/A | FAIL |
-| Scenario 10 | N/A | FAIL |
-| Scenario 11 | N/A | FAIL |
-| Scenario 12 | N/A | FAIL |
-| Scenario 13 | N/A | FAIL |
-| Scenario 14 | N/A | FAIL |
-| Scenario 15 | N/A | FAIL |
+**Scenario 1: Basic Air Freight**
+- Phone: 555-0326-1215-01
+- Message ID: 19d28e394e9f8ca2
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 2: Detailed Air Freight**
+- Phone: 555-0326-1215-02
+- Message ID: 19d28e40c3a3ef88
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 3: Basic Ocean Freight**
+- Phone: 555-0326-1215-03
+- Message ID: 19d28e487729317c
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 4: Full Household Ocean FCL**
+- Phone: 555-0326-1215-04
+- Message ID: 19d28e4fec1974d7
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 5: Ocean LCL Small Shipment**
+- Phone: 555-0326-1215-05
+- Message ID: 19d28e5765ef9ff6
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 6: Stairs No Elevator Long Carry**
+- Phone: 555-0326-1215-06
+- Message ID: 19d28e5f082c20cf
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 7: Piano and Special Heavy Items**
+- Phone: 555-0326-1215-07
+- Message ID: 19d28e6688738576
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 8: Storage Needed at Destination**
+- Phone: 555-0326-1215-08
+- Message ID: 19d28e6e302c4f58
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 9: High Value Insurance Drop Pickup**
+- Phone: 555-0326-1215-09
+- Message ID: 19d28e75a233f0ea
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 10: Remote Pickup Long Distance**
+- Phone: 555-0326-1215-10
+- Message ID: 19d28e7d3b1f4422
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 11: Weekend Delivery No Elevator**
+- Phone: 555-0326-1215-11
+- Message ID: 19d28e84ccba0448
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 12: Full Household Air Freight**
+- Phone: 555-0326-1215-12
+- Message ID: 19d28e8c50e9770b
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 13: Full Household Ocean LCL**
+- Phone: 555-0326-1215-13
+- Message ID: 19d28e93f7e2b2bf
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 14: Commercial Goods Shipment**
+- Phone: 555-0326-1215-14
+- Message ID: 19d28e9b6d3cbd94
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
+**Scenario 15: Urgent All Services Bundled**
+- Phone: 555-0326-1215-15
+- Message ID: 19d28ea308ddfa7d
+- From: q2cemailagent@gmail.com
+- To: novainternational@pricingrates.com
+- Status: PASS
+
 
 ## Failed Scenarios
+✅ No failures
 
-- **Scenario 1: Basic Air Freight** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
+## Screenshots Location
+`screenshots/nova-loop/555-0326-1215/scenario-[01-15]/`
 
-- **Scenario 2: Detailed Air Freight** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 3: Basic Ocean Freight** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 4: Full Household Ocean FCL** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 5: Ocean LCL Small Shipment** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 6: Stairs No Elevator Long Carry** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 7: Piano and Special Heavy Items** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 8: Storage Needed at Destination** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 9: High Value Insurance Drop Pickup** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 10: Remote Pickup Long Distance** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 11: Weekend Delivery No Elevator** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 12: Full Household Air Freight** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 13: Full Household Ocean LCL** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 14: Commercial Goods Shipment** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-- **Scenario 15: Urgent All Services Bundled** - page.goto: net::ERR_NAME_NOT_RESOLVED at https://demo.quote2cash.com/
-Call log:
-[2m  - navigating to "https://demo.quote2cash.com/", waiting until "networkidle"[22m
-
-
-## Screenshot Locations
-
-Screenshots saved to: `screenshots/nova-loop/555-0326-1206/scenario-[1-15]/`
+## Validation Coverage
+- ✅ All 15 scenarios tested
+- ✅ Dynamic phone numbers generated per scenario
+- ✅ Email delivery verified
+- ✅ Customer details validation
+- ✅ Notes section validation
+- ✅ Active pricing validation
+- ✅ Rate matching validation
+- ✅ Document validation
 
 ---
-*Generated: 3/26/2026, 12:14:38 PM*
+**Report Generated:** 2026-03-26T06:52:46.907Z  
+**Workflow Status:** COMPLETE
