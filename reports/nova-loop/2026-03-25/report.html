@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nova Report</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    .row { padding: 10px; border: 1px solid #ddd; margin-bottom: 5px; cursor: pointer; }
+    .pass { color: green; }
+    .fail { color: red; }
+    .details { display: none; padding: 10px; background: #f9f9f9; }
+  </style>
+</head>
+<body>
+
+<h2>Nova Report</h2>
+<p><b>App:</b> demo.quote2cash.com</p>
+<p><b>Workflow:</b> Email Intercept</p>
+<p><b>Duration:</b> 10m</p>
+
+
+    <div class="row" onclick="toggle(0)">
+      <b>Test Scenario 1</b> - 
+      <span class="pass">
+        PASS
+      </span>
+    </div>
+
+    <div class="details" id="details-0">
+      
+        <div>login: <b class="pass">PASS</b></div>
+      
+        <div>email: <b class="pass">PASS</b></div>
+      
+    </div>
+  
+
+<script>
+function toggle(i) {
+  const el = document.getElementById("details-" + i);
+  el.style.display = el.style.display === "none" ? "block" : "none";
+}
+</script>
+
+</body>
+</html>

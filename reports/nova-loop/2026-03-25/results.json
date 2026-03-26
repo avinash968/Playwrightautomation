@@ -1,0 +1,19 @@
+{
+  "title": "Nova Report",
+  "app": "demo.quote2cash.com",
+  "workflow": "Email Intercept",
+  "duration": "10m",
+  "scenarios": [
+    {
+      "scenario": "Test Scenario 1",
+      "checks": {
+        "login": {
+          "status": "PASS"
+        },
+        "email": {
+          "status": "PASS"
+        }
+      }
+    }
+  ]
+}
