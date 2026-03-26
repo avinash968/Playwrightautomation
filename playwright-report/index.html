@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playwright Test Reports</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+          "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+          sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      header {
+        text-align: center;
+        color: white;
+        margin-bottom: 50px;
+        padding: 40px 20px;
+      }
+      header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      header p {
+        font-size: 1.1em;
+        opacity: 0.9;
+      }
+      .reports-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 25px;
+        margin-bottom: 40px;
+      }
+      .report-card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+      }
+      .report-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+      }
+      .report-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 25px;
+        text-align: center;
+      }
+      .report-header .icon {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+      .report-header h2 {
+        font-size: 1.3em;
+        margin-bottom: 5px;
+      }
+      .report-header p {
+        font-size: 0.9em;
+        opacity: 0.9;
+      }
+      .report-content {
+        padding: 25px;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .report-info {
+        margin-bottom: 15px;
+        font-size: 0.95em;
+        color: #666;
+      }
+      .report-info-item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid #eee;
+      }
+      .report-info-item strong {
+        color: #333;
+      }
+      .status-badge {
+        display: inline-block;
+        padding: 5px 12px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 0.9em;
+        margin-bottom: 15px;
+      }
+      .status-pass {
+        background-color: #d4edda;
+        color: #155724;
+      }
+      .status-fail {
+        background-color: #f8d7da;
+        color: #721c24;
+      }
+      .btn-group {
+        display: flex;
+        gap: 10px;
+        margin-top: auto;
+      }
+      .btn {
+        flex: 1;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s ease;
+        font-size: 0.95em;
+      }
+      .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+      }
+      .btn-primary:hover {
+        opacity: 0.9;
+      }
+      .btn-secondary {
+        background-color: #f0f0f0;
+        color: #333;
+        border: 2px solid #ddd;
+      }
+      .btn-secondary:hover {
+        background-color: #e8e8e8;
+      }
+      footer {
+        text-align: center;
+        color: white;
+        margin-top: 40px;
+        padding: 20px;
+        font-size: 0.9em;
+        opacity: 0.8;
+      }
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-bottom: 30px;
+      }
+      .metric-box {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+      .metric-box .number {
+        font-size: 2.5em;
+        font-weight: bold;
+        color: #667eea;
+        margin-bottom: 5px;
+      }
+      .metric-box .label {
+        color: #666;
+        font-size: 0.95em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🎯 Playwright Test Reports</h1>
+        <p>Quote2Cash Email Intercept Automation Suite</p>
+      </header>
+
+      <div class="metrics">
+        <div class="metric-box">
+          <div class="number">15</div>
+          <div class="label">Total Scenarios</div>
+        </div>
+        <div class="metric-box">
+          <div class="number">100%</div>
+          <div class="label">Success Rate</div>
+        </div>
+        <div class="metric-box">
+          <div class="number">15</div>
+          <div class="label">Emails Sent</div>
+        </div>
+        <div class="metric-box">
+          <div class="number">90</div>
+          <div class="label">Validation Checks</div>
+        </div>
+      </div>
+
+      <div class="reports-grid">
+        <!-- Nova Intercept Loop Report -->
+        <div class="report-card">
+          <div class="report-header">
+            <div class="icon">✈️</div>
+            <h2>Nova International</h2>
+            <p>Email Intercept Loop</p>
+          </div>
+          <div class="report-content">
+            <span class="status-badge status-pass">✅ PASS</span>
+
+            <div class="report-info">
+              <div class="report-info-item">
+                <strong>Total Scenarios:</strong>
+                <span>15</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Passed:</strong>
+                <span>15</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Failed:</strong>
+                <span>0</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Success Rate:</strong>
+                <span>100%</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Validations:</strong>
+                <span>90/90 Passed</span>
+              </div>
+            </div>
+
+            <div class="btn-group">
+              <a href="nova-intercept-report.html" class="btn btn-primary"
+                >View Report</a
+              >
+              <a
+                href="https://github.com/avinash968/Playwrightautomation/blob/master/test-results/nova-intercept-loop-report.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary"
+                >Details</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder for Email Intercept Workflow Report -->
+        <div class="report-card">
+          <div class="report-header">
+            <div class="icon">📧</div>
+            <h2>Email Intercept Workflow</h2>
+            <p>3-Client Validation</p>
+          </div>
+          <div class="report-content">
+            <span class="status-badge status-pass">✅ PASS</span>
+
+            <div class="report-info">
+              <div class="report-info-item">
+                <strong>Total Clients:</strong>
+                <span>3</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Validations:</strong>
+                <span>33/33 Passed</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Success Rate:</strong>
+                <span>100%</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Clients:</strong>
+                <span>Van Line, Iron Haul, Nova</span>
+              </div>
+            </div>
+
+            <div class="btn-group">
+              <a
+                href="https://github.com/avinash968/Playwrightautomation/blob/master/test-results/email-intercept-report.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                >View Report</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Test Plan Documentation -->
+        <div class="report-card">
+          <div class="report-header">
+            <div class="icon">📋</div>
+            <h2>Test Plan</h2>
+            <p>Comprehensive Test Scenarios</p>
+          </div>
+          <div class="report-content">
+            <span class="status-badge status-pass">✅ READY</span>
+
+            <div class="report-info">
+              <div class="report-info-item">
+                <strong>Test Cases:</strong>
+                <span>24</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Test Suites:</strong>
+                <span>3</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Coverage:</strong>
+                <span>Email to Order Flow</span>
+              </div>
+              <div class="report-info-item">
+                <strong>Framework:</strong>
+                <span>Playwright</span>
+              </div>
+            </div>
+
+            <div class="btn-group">
+              <a
+                href="https://github.com/avinash968/Playwrightautomation/blob/master/specs/email-intercept-workflow-test-plan.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                >View Plan</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Last Updated: <strong id="timestamp">March 23, 2026</strong></p>
+        <p>
+          Application: <strong>demo.quote2cash.com</strong> | Workflow:
+          <strong>Email Intercept Automation</strong>
+        </p>
+        <p style="margin-top: 10px; opacity: 0.7">
+          All reports and artifacts stored in GitHub repository
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      // Update timestamp with current date
+      const now = new Date();
+      const dateStr = now.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
+      document.getElementById("timestamp").textContent = dateStr;
+    </script>
+  </body>
+</html>
